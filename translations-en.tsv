@@ -1,0 +1,828 @@
+0	Everyday Battery Value Comparison | Battery Atlas
+1	Compare Daiso, Energizer, Duracell and Bexel prices and runtime under the same test conditions.
+2	Battery Atlas
+3	Data & methodology
+4	← All battery technologies
+5	Primary batteries overview
+6	Secondary batteries overview
+7	Fuel cells overview
+8	Everyday batteries & power markets
+9	Everyday battery value comparison
+10	How much does a lower price help?
+11	In its June 2024 test of 14 products, the Korea Consumer Agency found that Daiso NeoCell combined a low purchase price with good runtime. The largest differences in runtime per cell were 1.3× for AAA and 1.2× for AA. However,
+12	runtime for the same KRW 100
+13	was up to 8.6× greater for AAA NeoCell and 7.1× for AA NeoCell than the least cost-effective products tested. These maximum differences span the full test set, not a specific one-to-one comparison with Energizer.
+14	The 2024 test is not a current price list.
+15	Prices below were paid at physical stores in January 2024. Discounts, pack sizes and product changes can alter today's value comparison.
+16	Separate AA and AAA tests under matched conditions
+17	Prices are converted from 10- or 12-cell packs to a per-cell cost. Excellent, Good and Fair are relative ratings within this test; stars cannot be converted into runtime ratios or capacity.
+18	AAA size
+19	Product
+20	Pack price / quantity
+21	Price per cell
+22	Low drain
+23	Digital audio
+24	Medium drain
+25	Motorized toys
+26	Portable lights
+27	Daiso NeoCell
+28	KRW 2,000 / 10 cells
+29	KRW 200
+30	Excellent
+31	Duracell Deluxe
+32	KRW 14,100 / 12 cells
+33	KRW 1,175
+34	Good
+35	Duracell Ultra
+36	KRW 16,500 / 12 cells
+37	KRW 1,375
+38	Fair
+39	Bexel Premium
+40	KRW 11,400 / 12 cells
+41	KRW 950
+42	Bexel Platinum
+43	KRW 12,300 / 12 cells
+44	KRW 1,025
+45	Energizer Alkaline
+46	KRW 9,990 / 12 cells
+47	KRW 833
+48	Energizer Max
+49	KRW 13,100 / 12 cells
+50	KRW 1,092
+51	AA size
+52	Source: Korea Consumer Agency summary table, June 25, 2024. Original relative ratings are restated as Excellent, Good and Fair. Check whether current models and pack sizes match the tested products.
+53	Korea Consumer Agency · Comparative test ↗
+54	KDI Economic Information Center · Original release and results ↗
+55	Choosing between Daiso and Energizer
+56	In the AAA low-drain test, NeoCell and Energizer Max both rated Excellent. Their historical per-cell prices were KRW 200 and about KRW 1,092, a difference of approximately 5.46×.
+57	A 5.46× price difference does not mean a 5.46× runtime difference.
+58	NeoCell was a cost-effective choice for everyday low- and medium-drain uses.
+59	In the AA portable-light test, NeoCell rated Good, while Duracell Deluxe, Duracell Ultra and Bexel Platinum rated Excellent. Consider replacement frequency, required power, storage time and purchase discounts. This test does not guarantee performance in every high-drain device or long-term protection against leakage. All tested products met the leakage and heavy-metal test criteria.
+60	Daiso being a Korean retailer does not mean its products are manufactured in Korea. A product sold domestically is not automatically Korean-made.
+61	Calculate value at your purchase price
+62	Runtime per unit price = actual runtime per cell ÷ price per cell. Enter runtime measured in the same device under matching conditions. The default runtime below is a calculation example, not a measured test result.
+63	Pack price (KRW)
+64	Cells per pack
+65	Runtime per cell (hours)
+66	Runtime depends on device load and cutoff voltage. Do not mix AA and AAA results or results from different devices. For frequent repeated use, consider compatible secondary batteries with the correct voltage.
+67	Alkaline principles, products & manufacturers →
+68	Checked: October 5, 2026. Each figure retains its reference period and original source.
+69	Privacy & cookies
+70	ESS Tenders and Battery Trends | Battery Atlas
+71	Understand LFP growth in global energy storage and Korea's ESS central contract market.
+72	ESS tenders and battery trends
+73	ESS stores electricity for later use
+74	An Energy Storage System (ESS) includes batteries, a power conversion system (PCS), controls, cooling and fire protection. It smooths renewable output and shifts electricity supply to periods of higher demand.
+75	MW measures instantaneous power; MWh measures stored energy
+76	. A 100 MW / 600 MWh system provides roughly six hours of rated output under rated conditions.
+77	In new battery storage installations worldwide,
+78	LFP lithium-ion batteries
+79	are currently the most common. The IEA reports about 80% of new storage in 2023 and over 90% of new stationary battery installations in 2025. These figures refer to
+80	new installations worldwide
+81	, not the share of all installed ESS capacity in Korea.
+82	IEA · LFP share in 2023 ↗
+83	IEA · Stationary installations in 2025 ↗
+84	Which batteries are gaining ground, and why?
+85	Transition
+86	Why this choice?
+87	Continuing roles & challenges
+88	Lead-acid → wider lithium-ion use
+89	Lead-acid is inexpensive with established supply and recycling, but is heavy and has limitations in usable energy and cycle life. Lithium-ion offers advantages in efficiency and installation space.
+90	Lead-acid has not disappeared. It remains in UPS and backup-power applications.
+91	NCM and NCA applications
+92	High energy per unit mass and volume, supported by mature Korean supply technology. Useful where installation space is limited.
+93	Thermal management, raw-material prices and operating conditions matter. Korean and global markets evolve at different speeds.
+94	Growing LFP share
+95	LFP contains no nickel or cobalt and offers long cycle life and relatively high thermal stability. Stationary ESS faces fewer weight constraints than vehicles, so lifetime cost often matters more than energy density.
+96	Lower energy density, cold-weather performance and state-of-charge estimation remain challenges. LFP can still catch fire, so system safety design is essential.
+97	Exploring sodium-ion, flow batteries and more
+98	Material options and long-duration storage needs drive interest. Flow batteries allow tank capacity and system power to be sized relatively independently.
+99	These technologies have not replaced the global ESS mainstream. Cost, efficiency, footprint and supply scale still need validation.
+100	This does not mean every ESS has switched from NCM to LFP. LFP is increasingly selected for new investments. Samsung SDI presents NCA in SBB 1.7 and LFP in SBB 2.0; LG Energy Solution also offers NCM(A) and LFP.
+101	Compare lifetime electricity delivered, efficiency, replacement and operating costs alongside battery prices
+102	when selecting a system.
+103	Samsung SDI · ESS products with two chemistries ↗
+104	LG Energy Solution · ESS product range ↗
+105	IEA · LFP costs and adoption ↗
+106	What is Korea's ESS central contract market?
+107	Korea Power Exchange announces required locations and capacity. Developers bid a price and a plan to build and operate ESS. Selected projects provide storage and delivery capability under a contract and receive settlement payments.
+108	This is separate from battery product procurement and hydrogen-generation HPS/CHPS tenders
+109	.
+110	Tender announcement
+111	Location, power and energy requirements
+112	Project proposal
+113	Price, site, equipment and safety plan
+114	Evaluation & selection
+115	Price and non-price assessment
+116	Construction & verification
+117	Permits, installation and performance checks
+118	Operation & settlement
+119	Meet contracted availability obligations
+120	The September 22, 2026 notice seeks mainland capacity of
+121	and Jeju capacity of
+122	, each sized for six hours of storage. Target completion is February 2029. The mainland notice specifies a 15-year term with 50 points for price and 50 for non-price factors, including safety, technical performance, grid and industrial contributions. Tender capacity is not awarded capacity.
+123	Choosing LFP does not automatically win a contract.
+124	Evaluation covers fire prevention and response, certification, efficiency, life and grid conditions, as well as chemistry. The notice does not permit mixing NCM and LFP within one bid configuration.
+125	The tender price unit, KRW/kW-h, is a contract and settlement unit tied to available power and time. It must not be directly compared with battery purchase prices in KRW/kWh. This explanation is dated October 5, 2026; consult the original notice for current participation and submission requirements.
+126	Korea Power Exchange · 2026 mainland notice ↗
+127	Mainland tender notice PDF ↗
+128	Korea Power Exchange · 2026 Jeju notice ↗
+129	Explore related battery principles
+130	Principles, products & features →
+131	Lead-acid batteries
+132	Sodium-ion
+133	Vanadium flow batteries
+134	Compare primary batteries, secondary batteries, fuel cells and special technologies: principles, ion and electron movement, advantages, limitations, materials and public 2025 prices and market data.
+135	Battery Atlas | From Principles to Market Data
+136	Manufacturer rankings
+137	Where does electricity come from,
+138	and what moves?
+139	Explore electron and ion pathways in 25 primary, secondary and fuel-cell technologies through animation, alongside materials, prices and applications.
+140	ESS tenders & battery trends →
+141	Everyday battery value →
+142	Battery category overviews
+143	Types, features and names
+144	Cathode, anode and electrolyte classifications
+145	Hydrogen, clean hydrogen & HPS/CHPS
+146	Primary batteries are used once; secondary batteries are recharged; fuel cells generate electricity from a continuous fuel supply. Flow batteries are rechargeable secondary batteries that circulate electrolytes stored in tanks.
+147	Explore battery technologies
+148	Find a technology
+149	25 technologies
+150	e.g. LFP, hydrogen, CATL
+151	Select category
+152	Battery technology
+153	Read the full technology page ↗
+154	Animated operating principles
+155	Discharge / generate
+156	Charge
+157	Pause animation
+158	Ion movement between the electrodes and electron movement through the external circuit
+159	Electrons e⁻ · external circuit
+160	Powering a load
+161	Electrolyte / membrane
+162	Anode · during discharge
+163	Cathode · during discharge
+164	Ions
+165	· electrolyte / membrane
+166	Simplified directions and particle counts. Read the descriptions below for actual electrode reactions and electrolyte behavior.
+167	What happens at the electrodes and electrolyte?
+168	Advantages
+169	Limitations
+170	Materials & supply
+171	Main applications
+172	2025 market data
+173	Volume & ranking
+174	Price
+175	How to read the data
+176	Before comparing numbers,
+177	check the measurement basis.
+178	Compare volumes within the same market
+179	About 1.2 TWh of batteries were installed in electric vehicles worldwide in 2025, with LFP exceeding 55%. Fuel cells are usually measured by installed power (MW), while disposable cells may be counted by units, so these technologies are not ranked in one combined table. Sales and installed battery capacity are also different measures.
+180	IEA source ↗
+181	What does $/kWh price measure?
+182	BloombergNEF's 2025 average pack prices were $108/kWh for all lithium-ion batteries, $81/kWh for LFP and $128/kWh for NMC. Cells, packs and installed systems are different products. Fuel cells are generators rather than energy-storage packs, so compare $/kW alongside fuel costs.
+183	BNEF source ↗
+184	Rare earths and critical minerals are different
+185	Lithium, nickel, cobalt and platinum are not rare-earth elements. Some NiMH hydrogen-storage alloys contain rare earths such as lanthanum. USGS estimates 2025 lithium mine output at about 290,000 tonnes excluding the United States, but this cannot be converted directly into a maximum annual battery output. Refining, recycling, allocation between uses and material input per product all differ.
+186	USGS source ↗
+187	The categories group representative commercial, early-commercial and demonstration technologies. Lithium-polymer usually refers to cell construction and electrolyte form rather than a separate cathode chemistry. Data date: October 5, 2026. Prices are nominal USD and exclude exchange rates, retail markups and installation costs. Where comparable public figures could not be verified, this is stated explicitly.
+188	Educational information about electrochemistry. For product selection, check manufacturer specifications and applicable safety standards.
+189	Devices that continuously consume fuel to produce electricity and heat. Explore technology types, fuel cleanliness and electricity sales mechanisms.
+190	Fuel Cells Overview | Battery Atlas
+191	Explore technologies
+192	Overview pages
+193	Understand electrochemistry through classification
+194	On this page
+195	Operating principles
+196	How types are classified
+197	Hydrogen & clean hydrogen
+198	Business evaluation
+199	Are fuel cells storage devices or generators?
+200	Fuel cells directly convert the chemical energy of a fuel and oxidant into electricity through electrochemical reactions. They generate while fuel and air are supplied, unlike secondary batteries that recharge their internal reactants.
+201	Fuel supply
+202	Hydrogen or a convertible fuel
+203	Electrochemical reaction
+204	Electrons and ions follow different paths
+205	Electricity & heat
+206	Products depend on the fuel
+207	The basic reaction using hydrogen directly is
+208	2H₂ + O₂ → 2H₂O + electricity + heat
+209	. Systems that reform natural gas into hydrogen, or use carbon-containing fuels, can also emit CO₂.
+210	Names such as PEMFC and SOFC refer to the electrolyte
+211	Fuel cells are classified mainly by electrolyte type, which determines the mobile ion, operating temperature and fuel options. DMFC emphasizes the direct use of methanol, rather than a particular electrolyte class.
+213	Type
+214	Electrolyte / ion
+215	Features & typical applications
+216	Polymer electrolyte membrane fuel cell · PEMFC
+217	Polymer membrane · H⁺
+218	Relatively low operating temperature and responsive output. Vehicles, mobile and distributed power.
+219	Solid oxide fuel cell · SOFC
+220	Solid oxide · usually O²⁻
+221	High-temperature operation with fuel flexibility and useful heat. Stationary generation.
+222	Phosphoric acid fuel cell · PAFC
+223	Phosphoric acid · H⁺
+224	Stationary combined heat and power. Heat recovery and system operation are important.
+225	Molten carbonate fuel cell · MCFC
+226	Molten carbonate · CO₃²⁻
+227	High-temperature operation for large stationary generation and heat use.
+228	Alkaline fuel cell · AFC
+229	Alkaline solution · OH⁻
+230	A traditional class sensitive to CO₂ contamination, used in space and other applications.
+231	Direct methanol fuel cell · DMFC
+232	Usually a polymer membrane · H⁺ / direct methanol supply
+233	Convenient liquid fuel. Portable and remote power; the reaction produces CO₂.
+234	Are hydrogen and clean-hydrogen fuel cells separate technology classes?
+235	A hydrogen fuel cell uses hydrogen as fuel. Clean hydrogen is a certification concept based on greenhouse-gas emissions from hydrogen production and related stages. A clean-hydrogen fuel cell is not a separate electrolyte class; it is a fuel cell using certified clean hydrogen.
+236	Separate device emissions from fuel emissions.
+237	A direct-hydrogen fuel cell produces water, but fossil-based hydrogen production means lifecycle greenhouse-gas emissions are not necessarily zero. Certification and its accounting boundary matter more than hydrogen color labels.
+238	Korea's clean-hydrogen threshold is greenhouse-gas emissions per kilogram of hydrogen of
+239	no more than 4 kg CO₂e
+240	. CO₂e converts different greenhouse gases to a common carbon-dioxide equivalent. Check the applicable notice and certification criteria for boundaries, grades and transport-related provisions.
+241	National Law Information Center · Clean-hydrogen certification notice
+242	Industry ministry · Korean certification criteria
+243	What are HPS and CHPS?
+244	HPS (Hydrogen Portfolio Standard) and CHPS (Clean Hydrogen Portfolio Standard) are terms used to describe hydrogen and clean-hydrogen generation obligations. When searching for the actual markets, use the official names
+245	General Hydrogen Power Generation Tender Market and Clean Hydrogen Power Generation Tender Market
+246	. HPS sometimes refers to the wider hydrogen-generation framework, so distinguish the context.
+247	These markets competitively purchase
+248	electricity
+249	produced from hydrogen or hydrogen compounds. They are distinct from hydrogen purchasing or fuel-cell equipment procurement. Korea Power Exchange operates the tenders, and generators submit prices and project plans for evaluation.
+251	Category
+252	General hydrogen-generation tender market
+253	Clean-hydrogen-generation tender market
+254	Purpose
+255	Promote distributed hydrogen generation and competition
+256	Expand clean-hydrogen use and reduce greenhouse gases
+257	Fuel
+258	General hydrogen generation without mandatory clean-hydrogen certification; consult the notice for eligible fuels
+259	Fuel meeting Korea's clean-hydrogen certification criteria
+260	Evaluation
+261	Bid price plus grid impacts and industrial/economic contributions
+262	Bid price plus clean-hydrogen grade, fuel-supply reliability and industrial/economic contributions
+263	Examples announced for the 2025 opening
+264	1,300 GWh annually / 20-year term
+265	3,000 GWh annually / 15-year term
+266	Relationship to fuel cells
+267	An electricity sales route to assess for fuel-cell projects
+268	Separately assess fuel certification and other tender requirements
+269	CHPS is not exclusively a fuel-cell market.
+270	It covers generation using clean hydrogen or hydrogen compounds, so other generation technologies may qualify under the tender requirements. Fuel-cell technology or hydrogen use alone does not guarantee eligibility or an award.
+271	Distinguish the proposed 2026 changes.
+272	In its June 8, 2026 advance notice, the Ministry of Climate, Energy and Environment proposed annual volumes of 500 GWh for clean hydrogen and 930 GWh for general hydrogen, exclusion of coal–ammonia co-firing support, and stronger environmental evaluation for general hydrogen. This describes the proposal at that date; subsequent final notices and tenders govern actual participation.
+273	Climate ministry · 2026 proposed amendment (KDI archive)
+274	Korea Power Exchange · 2025 general-hydrogen market briefing
+275	Market announcement
+276	Purchase volume and eligibility
+277	Bid
+278	Price, fuel and project plan
+279	Price and non-price evaluation
+280	Contract & project preparation
+281	Permits, fuel procurement and construction
+282	Generation & settlement
+283	Fulfil the contract and market rules
+284	Examples are from the May 9, 2025 opening announcement, not awards or 2026 tender volumes. Annual volumes, terms, eligibility, evaluation and settlement can change. This explains the framework without confirming whether applications are currently open.
+285	Industry ministry · 2025 general and clean hydrogen markets
+286	Industry ministry · Hydrogen tender design
+287	Korea Power Exchange · Tender notices and platform
+288	Which costs matter for generation projects?
+289	Assess equipment cost (KRW/kW), fuel, efficiency, utilization, stack replacement and maintenance, heat sales and electricity sales terms together. Storage-capacity cost (KRW/kWh) and generating-capacity cost (KRW/kW) are different metrics.
+290	For each project, combine tender revenue with fuel, maintenance and financing costs to calculate generation cost and cash flow. These are business evaluation criteria, not a claim that fuel cells are always cheaper than thermal generation.
+291	US DOE · Fuel-cell basics
+292	US DOE · Fuel-cell types
+293	US DOE · Fuel-cell applications and fuels
+294	Explore each technology's operating principles
+295	Principles, animations & manufacturers
+296	Data checked: October 5, 2026. Type comparisons describe typical trends; actual product specifications may differ.
+297	Educational information about electrochemistry
+298	Use once, then replace. Useful where storage life and convenience matter more than recharging.
+299	Primary Batteries Overview | Battery Atlas
+300	Basic principles
+301	Types & features
+302	Understanding names
+303	Selection criteria
+304	What is a primary battery?
+305	A primary battery converts the chemical energy of stored reactants into electricity. Typical products are not designed for recharging and are unsuitable for repeatedly reversing the used reactants electrically.
+306	Chemical reaction
+307	Electrodes release or accept electrons
+308	Electrons pass through the external circuit
+309	Replacement
+310	Replace the cell when reactants are depleted
+311	The electrolyte carries ions; electrons flow through the external circuit connected to the device. Electrode–electrolyte combinations determine voltage, current capability, shelf life and cost.
+312	Representative types and features
+314	Chemistry & features
+315	Typical applications
+316	Zinc–carbon · Zn/C
+317	Zinc and manganese dioxide with a chloride-based electrolyte. Low cost, but less suitable for sustained high currents.
+318	Clocks and low-power remotes
+319	Alkaline · Zn/MnO₂
+320	Zinc–manganese dioxide electrodes with an alkaline electrolyte. Usually better usable capacity and current capability than zinc–carbon cells.
+321	Everyday devices, toys and flashlights
+322	Primary lithium batteries
+323	Metallic lithium anodes. Cathodes distinguish lithium–manganese dioxide, lithium–thionyl chloride and other types. High energy density and long shelf life.
+324	Coin cells, meters and sensors
+325	Silver oxide · Ag₂O/Zn
+326	Silver oxide cathodes and zinc anodes. Compact with relatively stable voltage; affected by silver prices.
+327	Watches and small precision devices
+328	Zinc–air · Zn-air
+329	Zinc reacts with oxygen from the air. Opening the air holes activates the battery; after activation, life decreases even without use.
+330	Hearing aids
+331	Chemistry names and sizes are separate classifications
+332	Alkaline describes the electrolyte, silver oxide names the cathode material, and primary lithium usually refers to the metallic lithium anode. Primary battery names therefore do not follow a single classification rule.
+333	AA, AAA and coin refer to size and shape.
+334	AA products include alkaline primary and nickel-metal hydride secondary batteries with different voltages and operating requirements. Primary lithium and lithium-ion secondary batteries must also be distinguished.
+335	How should you choose?
+336	First check the required voltage and size, then compare current demand, temperature range, storage period and replacement interval. For frequent use, consider rechargeable lifetime costs. Do not recharge ordinary primary cells; collect used batteries separately for recycling.
+337	Energizer · Battery terminology
+338	Energizer · Primary battery comparison
+339	Energizer · Technical data by chemistry
+340	Everyday battery price and performance
+341	Compare Daiso, Energizer, Duracell and Bexel →
+342	Batteries that reverse chemical reactions through charging for repeated use. Different names use different classification criteria.
+343	Secondary Batteries Overview | Battery Atlas
+344	Charging & discharging
+345	Classification of names
+346	Lithium-ion cathode families
+347	Other secondary batteries
+348	What is reversed during charging?
+349	During discharge, electrode reactions send electrons through the external circuit to supply power. During charging, an external source drives the reaction in reverse to store energy again. Ions move through the electrolyte to maintain charge balance.
+350	Discharge
+351	Chemical energy → electrical energy
+352	Electrical energy → chemical energy
+353	Repeated use
+354	Losses and degradation accumulate
+355	Rechargeable does not mean unlimited life. Electrode and electrolyte side reactions, structural changes, temperature and operating conditions reduce capacity and power over time.
+356	Are all secondary batteries named after the cathode?
+357	LFP, NMC (NCM), NCA, LCO and LMO name the cathode active material of lithium-ion batteries.
+358	This rule does not apply to every secondary battery. Cathode materials form the positive electrode, and these abbreviations specifically identify the active material participating in energy-storage reactions.
+360	Classification axis
+361	Example names
+362	What changes?
+363	Cathode active material
+364	Lithium-ion energy density, voltage, stability and material composition
+365	Anode active material
+366	LTO (lithium titanate)
+367	LTO replaces graphite as the anode; it can be paired with cathodes such as NMC or LMO
+368	Mobile ion / chemistry
+369	Lithium-ion, sodium-ion, lead-acid, nickel-metal hydride
+370	Basic energy-storage chemistry
+371	Electrolyte state / composition
+372	All-solid-state / lithium-polymer
+373	All-solid-state uses solid electrolytes; lithium-polymer relates to electrolyte and cell construction
+374	Storage / circulation structure
+375	Flow batteries
+376	Electrolytes are stored in external tanks and circulated through the reaction unit
+377	Cell format
+378	Cylindrical, prismatic, pouch
+379	Shape and packaging, separate from cathode chemistry
+380	Several names can apply simultaneously.
+381	For example, LFP cathode + graphite anode + liquid electrolyte + prismatic cell describes four different elements. Solid-state cells may use LFP or NMC cathodes. Flow batteries can be recharged and therefore belong to secondary batteries.
+382	Representative lithium-ion cathode families
+384	Family
+385	Key features & challenges
+386	Lithium iron phosphate · LFP
+387	Lithium iron phosphate · LiFePO₄
+388	Stability and long life without nickel or cobalt. Generally lower energy per unit mass than NMC.
+389	Nickel manganese cobalt · NMC
+390	Nickel–manganese–cobalt oxide
+391	High energy density. Properties depend on composition; nickel/cobalt supply and thermal management matter.
+392	Nickel cobalt aluminum · NCA
+393	Nickel–cobalt–aluminum oxide
+394	High energy density; thermal management, charge control and material supply matter.
+395	Lithium cobalt oxide · LCO
+396	Lithium cobalt oxide · LiCoO₂
+397	Widely used in small electronics; cobalt cost and safety management are challenges.
+398	Lithium manganese oxide · LMO
+399	Lithium manganese oxide · typically LiMn₂O₄
+400	Power capability and manganese-based materials are strengths; life and high-temperature performance remain challenges.
+401	NMC and NCM name the same nickel–manganese–cobalt family. NMC811 indicates an 8:1:1 relative molar ratio of nickel, manganese and cobalt. Cathode names alone cannot determine life, cost or safety; assess the anode, electrolyte, design and use conditions as well.
+402	Secondary batteries beyond lithium-ion
+404	Key features
+405	Competitive price and established recycling; heavy with low energy density
+406	Vehicle starting and backup power
+407	Nickel-metal hydride · NiMH
+408	Nickel-based cathode and hydrogen-storage alloy anode; relatively mature technology
+409	Hybrid vehicles and everyday rechargeable cells
+410	Nickel-cadmium · NiCd
+411	Durability and temperature tolerance; consider cadmium toxicity and regulation
+412	Industrial backup power
+413	Sodium-ion · Na-ion
+414	Uses sodium ions; material choice and resource accessibility are strengths
+415	ESS and selected vehicle development / commercialization
+416	Sodium–sulfur · NaS
+417	Sodium–sulfur chemistry; high-temperature operation requires insulation and safety management
+418	Large-scale electricity storage
+419	Vanadium flow battery · tank circulation
+420	Vanadium electrolytes circulate from tanks; power and stored energy can be sized relatively independently
+421	Long-duration ESS
+422	Zinc–bromine flow battery · tank circulation
+423	Zinc–bromine chemistry; circulating designs are flow batteries. Zinc deposition and bromine management matter.
+424	Stationary ESS
+425	US DOE · Lithium-ion cathode / anode classification
+426	US DOE · Next-generation and flow batteries
+427	US DOE · Charging and discharging
+428	ESS markets and battery selection
+429	ESS tenders and reasons for growing LFP adoption →
+430	Lithium titanate · LTO
+431	All-solid-state · solid electrolyte
+432	Privacy & Cookies | Battery Atlas
+433	Effective: October 7, 2026
+434	Site use and information processing
+435	Battery Atlas provides battery technology and market information. It currently has no registration, payment or personal-information forms. Technology searches and value-calculator inputs are processed in the browser. The hosting service may process connection information, including IP addresses and request details, to deliver the site.
+436	Advertising and cookies
+437	Google AdSense code is installed on this site. Ad delivery depends on Google's review and account settings. Google and third-party advertising providers may use cookies or similar identifiers to serve ads based on visits to this and other sites, measure ad performance and prevent misuse.
+438	When advertising functions run, the browser may send information such as IP address, visited page, browser and device details to Google. Processing and retention follow Google and relevant advertising providers' policies and user choices.
+439	How Google uses information from partner sites
+440	Google Privacy Policy
+441	Manage advertising and cookie settings
+442	Google My Ad Center
+443	lets you manage personalized advertising settings.
+444	Third-party advertising choice tools
+445	are also available. Browser settings allow cookie blocking and deletion. Turning off personalized ads does not remove all advertising.
+446	External links and changes
+447	When you open manufacturer or institutional links, their privacy policies apply. This notice and its effective date will be updated when advertising services or site functions change.
+448	Hydroxide ions move from the oxygen electrode to the hydrogen electrode.
+450	← Compare all technologies
+451	Read the fuel cells overview
+453	Ion and electron pathways
+454	Hydrogen H₂
+455	Oxygen O₂
+456	Electrolyte membrane
+458	Simplified reaction directions and pathways. Actual particle numbers and speeds differ.
+459	Electrode and electrolyte principles
+460	OH⁻ moves from the air electrode to the fuel electrode through the alkaline electrolyte.
+461	Air electrode: ½O₂ + H₂O + 2e⁻ → 2OH⁻ / Fuel electrode: H₂ + 2OH⁻ → 2H₂O + 2e⁻
+462	Fast reaction kinetics with options for non-precious-metal catalysts.
+463	Drawbacks & challenges
+464	Sensitive to CO₂; air and electrolyte management are needed.
+465	Materials & supply constraints
+466	Depends on catalyst composition; platinum is not always required.
+467	Space and specialized power; some mobile systems
+468	Products from Korean companies
+469	Representative products and manufacturing origin
+470	Domestic product image not yet verified
+471	We have not verified both a domestic manufacturer/seller and an official representative image for this chemistry. This does not mean domestic products do not exist. Images of other chemistries are not used as substitutes.
+472	A Korean company's product is not necessarily manufactured in Korea. Actual photographs, official product images and exhibition photographs are identified separately. Checked: October 5, 2026.
+473	Manufacturers, sellers & market shares
+474	Major companies
+475	Representative companies verified through official product and technical sources. List order is not a market ranking. Company and product status checked: October 5, 2026.
+476	Manufacturers and chemistry-specific shares
+477	Company / official source
+478	Role, product & supply status
+479	2025 share in this battery category
+480	Established alkaline fuel-cell developer; current supply of liquid-electrolyte AFC unverified
+481	Public figure not verified
+482	Comparable 2025 global company shares for this specific chemistry could not be verified. Unverified does not mean 0%. Overall company revenue, production capacity and cumulative installations are not converted into market shares.
+483	Comparable global 2025 sales volume unverified
+484	Assess $/kW and generation cost
+485	US Department of Energy · Fuel-cell types ↗
+486	Related technologies
+487	Prices and volumes are listed only where public figures share comparable conditions. Fuel-cell costs are better assessed through equipment cost per unit power and fuel costs than storage cost per kWh. Data date: October 5, 2026.
+488	A disposable cell in which zinc is oxidized and manganese dioxide is reduced.
+490	Read the primary batteries overview
+492	Electrolyte / separator
+493	OH⁻ in aqueous KOH participates in charge transport.
+494	Overall discharge: Zn + 2MnO₂ + H₂O → ZnO + 2MnOOH
+495	Low cost and convenient storage.
+496	Ordinary products are not rechargeable and produce waste.
+497	Zinc and manganese
+498	Remotes, toys and small emergency devices
+499	SM Bexel · LR6 AA alkaline
+500	Korean company product · manufacturing country unverified
+501	Official product image
+502	Image and product source: SM Bexel ↗
+503	Daiso vs Energizer: value comparison →
+504	Korea Consumer Agency tests · price · runtime · calculator
+505	Manufacturing / sales · Optimum alkaline
+506	Manufacturing / sales · alkaline range
+507	Comparable global 2025 counts / GWh across categories unverified
+508	Pack cost per kWh is not an appropriate comparison
+509	US Department of Energy · Batteries ↗
+510	The zinc container is oxidized and manganese oxide is reduced.
+513	Ammonium chloride / zinc chloride paste; reactions vary by product formulation
+514	Discharge: Zn → Zn²⁺ + 2e⁻ / MnO₂ is reduced (overall equation depends on electrolyte composition)
+515	Simple construction and low cost for low-drain uses.
+516	Less favorable power capability and life than alkaline cells.
+517	Zinc, manganese and carbon
+518	Low-drain devices such as clocks and remotes
+519	SM Bexel · R14 C zinc–carbon cell
+520	Manufacturing / sales · zinc–carbon cells
+521	Global 2025 chemistry-specific sales unverified
+522	Liquid methanol is oxidized directly at the electrode without separate reforming.
+525	Methanol CH₃OH
+527	H⁺ passes through a polymer membrane.
+528	Fuel electrode: CH₃OH + H₂O → CO₂ + 6H⁺ + 6e⁻ / Air electrode: 1½O₂ + 6H⁺ + 6e⁻ → 3H₂O
+529	Liquid fuel can be easier to replenish and store than hydrogen.
+530	Fuel crossover, catalyst costs, low power density and CO₂ emissions
+531	Platinum, ruthenium and other catalysts contribute to cost
+532	Remote sensors, portable and long-duration auxiliary power
+533	Manufacturing / branded sales · direct methanol fuel cells
+534	Assess $/kW and fuel costs
+535	US Department of Energy · Fuel-cell basics ↗
+536	Lithium ions shuttle between graphite and cobalt oxide.
+538	Read the secondary batteries overview
+540	Graphite
+542	Organic electrolyte with lithium salts
+544	High volumetric energy density suits thin devices.
+545	High cobalt content and cost; limits in high-power and high-temperature use.
+546	Cobalt and lithium
+547	Smartphones, laptops and small electronics
+548	LG Energy Solution · small pouch cell range
+549	Korean company product · product-family image
+550	A product-family image from the official high-voltage LCO technology page. The models and cathode compositions of individual cells shown are not disclosed.
+551	Image and product source: LG Energy Solution ↗
+552	ATL (TDK Group) ↗
+553	Manufacturing / supply · small lithium-ion cells; LCO material use verified
+554	No public comparable global 2025 sales by chemistry
+555	No public comparable figure
+556	Reference · all EV battery chemistries
+557	2025 global EV battery company ranking
+558	Battery capacity installed in EVs, PHEVs and HEVs registered in 80 countries from January to December 2025: 1,187 GWh in total. These figures combine LFP, NMC, NCA and other chemistries; their scope differs from chemistry-specific market shares.
+559	2025 EV battery company ranking
+560	Rank
+561	Company
+562	Installed capacity
+563	Total market share
+564	LG Energy Solution
+565	Samsung SDI
+566	Other companies
+567	Rounding may prevent shares from summing to 100%. Rankings use installed capacity, so companies with the same rounded share, such as 3.7% or 2.4%, may have different ranks. This is not a retail revenue or all-battery sales ranking.
+568	SNE Research · Full-year 2025 data (February 4, 2026) ↗
+569	Both electrodes become lead sulfate during discharge, producing power. Charging restores the original materials.
+572	Aqueous sulfuric acid. Discharge consumes acid and forms water.
+573	Overall discharge: Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O
+574	Low initial cost, high short-term power and established recycling
+575	Heavy, with limited energy density and deep-discharge cycle life. Lead and acid require management.
+576	Lead is not a rare earth; toxicity and recycling management are key.
+577	Vehicle starting, UPS and telecom backup
+578	Sebang Battery · ROCKET AGM 70
+579	Made in Korea · marked on the product
+580	Automotive AGM lead-acid battery
+581	Image and product source: Sebang Battery ↗
+582	ESS tenders and changing battery choices →
+583	Why LFP is growing alongside NCM/NCA · Korea's 2026 tender
+584	Manufacturing / supply · automotive AGM lead-acid
+585	Manufacturing / sales · industrial lead-acid
+586	Global 2025 GWh ranking comparable with lithium batteries unverified
+587	Comparable 2025 average pack price unverified
+588	US Department of Energy · EV battery types ↗
+589	During discharge, lithium ions leave graphite and enter the cathode's iron-phosphate structure, while electrons pass through the external circuit. Charging reverses both flows.
+591	Organic solvent with dissolved lithium salts. Li⁺ moves surrounded by solvent molecules and desolvates at electrode surfaces.
+593	No nickel or cobalt, with generally good life and thermal stability.
+594	Less stored energy per unit mass or volume than high-nickel chemistries in many designs; low-temperature limitations.
+595	Lithium, iron phosphate and graphite. Calling this a rare-earth technology is inaccurate.
+596	Affordable EVs, buses and stationary ESS
+597	Samsung SDI · SBB 2.0 (LFP)
+598	Korean company product · exhibition photograph
+599	RE+ 2025 exhibition photograph showing SBB 2.0 (LFP) and SBB 1.7 (NCA) together. Distinguish the two products.
+600	Image and product source: Samsung SDI ↗
+601	Manufacturing / supply · Shenxing LFP
+602	Manufacturing / supply · Blade Battery LFP
+604	Manufacturing / supply · LFP range
+605	Over 55% of global EV battery installations in 2025 · leading chemistry
+606	2025 global average pack price, all applications
+607	Lithium metal is oxidized during a single-use reaction. Distinguish this from rechargeable lithium-ion.
+609	Lithium metal
+610	MnO₂ and other cathodes
+611	A non-aqueous electrolyte conducts Li⁺.
+612	Li/MnO₂ example: Li → Li⁺ + e⁻ / MnO₂ + Li⁺ + e⁻ → LiMnO₂
+613	High stored energy and long shelf life
+614	Single-use; handling and transport requirements depend on the product.
+615	Lithium, manganese and other materials depending on cathode
+616	Coin cells, sensors, medical and military equipment
+617	Vitzrocell · Tekcell SB-AA02
+618	Korean company product · model-specific origin unverified
+619	Lithium–thionyl chloride primary cell, one type of primary lithium battery.
+620	Image and product source: Vitzrocell ↗
+621	Manufacturing / sales · CR primary lithium
+622	Manufacturing / sales · primary lithium cells
+623	Lithium ions move between spinel manganese oxide and graphite.
+625	Discharge: graphite releases Li / Mn₂O₄ + Li⁺ + e⁻ → LiMn₂O₄
+626	Relatively high power and possible cobalt-free cathode design.
+627	Limitations in high-temperature life and energy density.
+628	Manganese and lithium
+629	Power tools and blended vehicle cathodes
+631	Past LMO production verified; current supply of this chemistry unverified
+632	No public comparable 2025 standalone sales volume
+633	Uses an LTO anode instead of conventional graphite. Structural changes during cycling are small.
+635	Lithium metal oxide
+636	Discharge: lithiated LTO → LTO + Li⁺ + e⁻ / cathode accepts Li⁺ and e⁻
+637	Strengths in fast charging, long life and low-temperature power.
+638	Low cell voltage and energy density add weight, volume and cost burdens.
+639	Titanium and lithium; nickel/cobalt may be used depending on cathode
+640	Fast-charging buses, industrial equipment and UPS
+641	Grinergy · POTERE S2
+642	Korean company product
+643	Battery using an LTO anode. LTO does not name a cathode chemistry.
+644	Image and product source: Grinergy ↗
+645	Manufacturing / sales · SCiB lithium-titanate anode
+646	Carbonate ions move to the fuel electrode as fuel's chemical energy becomes electricity.
+649	Fuel H₂ / gas
+651	CO₃²⁻ moves from the air electrode to the fuel electrode in hot molten carbonate.
+652	Air electrode: ½O₂ + CO₂ + 2e⁻ → CO₃²⁻ / Fuel electrode: H₂ + CO₃²⁻ → H₂O + CO₂ + 2e⁻
+653	Large distributed generation and high-temperature waste-heat recovery
+654	Life and maintenance challenges from corrosive electrolyte and high temperatures
+655	Uses materials such as nickel; designs need not require precious-metal catalysts
+656	Industrial and building distributed generation
+657	Korea Fuel Cell · 2.5 MW generation system
+658	Previously supplied Korean company product
+659	Official system configuration image. Current new sales/supply and the specific manufacturing scope require separate verification.
+660	Image and product source: Korea Fuel Cell ↗
+661	Manufacturing / system supply · molten carbonate fuel cells
+662	Sodium and sulfur react at high temperatures while sodium ions pass through a solid electrolyte.
+664	Liquid Na
+665	Liquid S
+667	Na⁺ passes through a solid β-alumina electrolyte.
+668	Overall discharge: 2Na + xS → Na₂Sₓ
+669	Used for long-duration stationary storage with relatively abundant materials.
+670	Requires high-temperature maintenance, insulation and safety management.
+671	Sodium, sulfur and ceramics
+672	Grid storage and peak reduction
+673	Former manufacturer; October 2025 decision to stop production and new-project sales, with inventory shipments and support
+674	No comparable 2025 sales volume on the same basis as other technologies
+675	No standard 2025 pack price
+676	Lithium ions move between a high-nickel cathode and graphite.
+678	Discharge: LiC₆ → C₆ + Li⁺ + e⁻ / metal oxide + Li⁺ + e⁻ → lithiated oxide
+679	High energy density supports long-range designs.
+680	Thermal management and nickel/cobalt supply-chain management are necessary.
+681	Nickel, cobalt, aluminum and lithium
+682	Selected EVs and high-energy cylindrical cells
+683	Samsung SDI · SBB 1.7 (NCA)
+684	RE+ 2025 exhibition photograph showing SBB 1.7 (NCA) and SBB 2.0 (LFP) together.
+685	Manufacturing / supply · automotive NCA lithium-ion
+686	Manufacturing / supply · high-nickel NCA range
+687	Often grouped with NMC in high-nickel statistics; standalone 2025 rank unverified
+688	Cadmium and nickel redox reactions produce electric current.
+690	OH⁻ in aqueous KOH participates in the reaction.
+691	Overall discharge: Cd + 2NiOOH + 2H₂O → Cd(OH)₂ + 2Ni(OH)₂
+692	Good high-power performance and durability at extreme temperatures.
+693	Cadmium toxicity, memory effects and environmental regulations are concerns.
+694	Nickel and cadmium
+695	Industrial and aviation backup power; specialized equipment
+696	Manufacturing / sales · Uptimax nickel-cadmium
+697	Manufacturing / sales · industrial Ni-Cd
+698	Standalone global 2025 sales unverified
+699	Hydrogen in a metal hydride is oxidized while nickel oxide is reduced.
+701	Hydrogen-storage alloy
+702	Aqueous KOH; OH⁻ mediates electrode reactions.
+703	Overall discharge: MH + NiOOH → M + Ni(OH)₂
+704	Robust and cadmium-free.
+705	Lower energy density and greater self-discharge than lithium-ion.
+706	Hydrogen-storage alloys commonly include rare earths such as lanthanum.
+707	Hybrid vehicles and rechargeable AA cells
+708	SM Bexel · HR6 AA Ni-MH 2000 mAh
+709	Official product image · 1.2 V nickel-metal hydride secondary cell
+710	Manufacturing / sales · hybrid-vehicle NiMH
+711	Manufacturing / sales · nickel-metal hydride cells
+712	Lithium ions shuttle between graphite and layered metal oxide. Nickel, manganese and cobalt ratios affect performance and cost.
+714	Organic solvent and lithium salts transport Li⁺.
+716	High energy density makes longer vehicle range easier to achieve.
+717	Nickel/cobalt procurement and price volatility, plus high-temperature safety and life management.
+718	Nickel and cobalt are critical minerals, not rare earths. Geographical concentration of cobalt supply creates risk.
+719	Long-range EVs, power tools and selected ESS
+720	Manufacturing / supply · NCM range
+721	Manufacturing / development · NCM range
+722	Second-largest EV battery chemistry in 2025 · comparable absolute GWh unverified
+723	Phosphoric acid provides an ion pathway; supplied fuel and air generate electricity.
+725	H⁺ passes through the phosphoric-acid electrolyte.
+726	Established experience in distributed generation and combined heat and power
+727	Catalyst cost, startup time and thermal management
+728	Platinum-group catalysts contribute to cost
+729	Distributed combined heat and power for buildings and industry
+730	Doosan Fuel Cell · M400 Hydrogen
+731	Official product image of a phosphoric-acid (PAFC) hydrogen fuel cell
+732	Image and product source: Doosan Fuel Cell ↗
+734	Manufacturing / system supply · phosphoric acid fuel cells
+735	Generates while hydrogen and air are supplied; generation stops when fuel supply stops.
+737	A polymer membrane passes H⁺ but blocks electrons.
+738	Hydrogen electrode: H₂ → 2H⁺ + 2e⁻ / Air electrode: ½O₂ + 2H⁺ + 2e⁻ → H₂O
+739	Low operating temperature, fast startup and water produced during operation
+740	Hydrogen production, storage and refueling infrastructure; platinum catalyst costs
+741	Platinum is a platinum-group metal, not a rare earth. Catalyst loading varies with design.
+742	Hydrogen vehicles, forklifts, mobile and emergency power
+743	Hyundai HTWO · hydrogen fuel-cell system
+744	Official hydrogen fuel-cell system product image
+745	Image and product source: Hyundai HTWO ↗
+746	Manufacturing / supply · PEM fuel-cell stacks and modules
+747	No 2025 sales volume directly comparable to battery GWh
+748	Assess $/kW and hydrogen $/kg
+749	Zinc is oxidized while silver oxide is reduced to silver.
+751	Alkaline electrolyte conducts OH⁻.
+752	Overall discharge: Zn + Ag₂O → ZnO + 2Ag
+753	Stable voltage in a compact cell
+754	Silver prices make large-scale use less attractive.
+755	Silver and zinc; silver is a precious metal, not a rare earth.
+756	Watches and small measurement / medical devices
+757	Manufacturing / sales · SR silver-oxide coin cells
+758	Sodium ions shuttle between electrodes instead of lithium. Cathode composition varies by product.
+761	Hard carbon
+762	Sodium-containing cathode
+763	Electrolyte containing sodium salts
+764	Discharge: NaₓC → C + xNa⁺ + xe⁻ / cathode accepts Na⁺ and e⁻
+765	Reduces lithium dependence and offers a wide choice of materials.
+766	Performance varies significantly by product; energy density and supply-chain scale remain constraints.
+767	Sodium and hard carbon; cathodes may contain nickel, manganese, iron or other materials.
+768	Affordable vehicles, two/three-wheelers and stationary storage
+769	Development / commercialization · Naxtra sodium-ion
+770	Consistent global 2025 actual-sales data unverified
+771	Oxide ions formed at the air electrode move to the fuel electrode and react with fuel. Electrons flow through the external circuit.
+774	Fuel H₂ / reformed gas
+775	Air O₂
+777	Oxide ions O²⁻ pass through a high-temperature ceramic electrolyte.
+778	Air electrode: ½O₂ + 2e⁻ → O²⁻ / Fuel electrode: H₂ + O²⁻ → H₂O + 2e⁻
+779	High electrical efficiency, combined heat and power, and fuel flexibility
+780	High-temperature maintenance, slow startup and thermal-cycle durability
+781	Ceramics, nickel and other materials vary by design; platinum is not always needed.
+782	Buildings, data centers and distributed generation
+783	MiCo Power · TUCY-8K
+784	8 kW-class solid oxide fuel-cell system
+785	Image and product source: MiCo Power ↗
+786	Manufacturing / system supply · SOFC Energy Server
+787	Not directly comparable with battery GWh in 2025
+788	Ions cross a solid electrolyte and electrons flow through the external circuit. The all-solid-state label does not by itself imply a lithium-metal anode.
+791	Graphite or lithium metal
+792	Lithium cathode
+793	Solid electrolytes replace liquids to conduct Li⁺. Sulfide, oxide and polymer electrolytes are distinct technologies.
+794	Discharge: anode releases Li⁺ and e⁻ / cathode accepts Li⁺ and e⁻ (depends on electrodes)
+795	Potential improvements in safety and energy density depend on the material combination.
+796	Electrode–electrolyte contact, manufacturing yield, cost and life validation are challenges.
+797	Lithium, nickel and cobalt depending on cathode; electrolyte materials vary by type
+798	Next-generation EVs and specialized power
+799	Manufacturing / sales · small all-solid-state cells
+800	General-purpose commercial sales and consistent 2025 rankings unverified
+801	No average mass-produced pack price
+802	Flow batteries are secondary batteries that store energy-bearing electrolytes in external tanks and circulate them with pumps. Vanadium electrolytes use different oxidation states. Stack size determines power; tank size and concentration determine stored energy.
+804	V²⁺ / V³⁺ tank
+805	VO²⁺ / VO₂⁺ tank
+806	Electrolyte solution / separator
+807	Two solutions containing vanadium ions circulate via pumps. The H⁺ direction shown across the membrane is conceptual and depends on operating conditions and the reaction convention depicted.
+809	Suited to long operating durations, repeated cycling and tank expansion.
+810	Vanadium electrolyte, tank and pump costs; low energy density
+811	Vanadium supply, prices and electrolyte financing costs are important.
+812	Solar/wind integration and long-duration grid storage
+813	Manufacturing / system supply · vanadium flow batteries
+814	Comparable global 2025 chemistry-specific GWh sales unverified
+815	Comparable 2025 system $/kWh unverified
+816	US Department of Energy · Flow batteries ↗
+817	Oxygen from outside air is the cathode reactant while zinc is oxidized.
+819	OH⁻ moves from the air electrode to the zinc electrode through an alkaline electrolyte.
+820	Overall discharge: 2Zn + O₂ → 2ZnO
+821	High energy density in small cells because oxygen is not stored internally.
+822	Airflow and humidity must be managed; most consumer products are single-use.
+823	Zinc and air-electrode catalysts
+824	Hearing aids and small medical devices
+825	iCellTech · hearing-aid zinc–air batteries
+826	Official photograph of size 10, 312, 13 and 675 product families
+827	Image and product source: iCellTech ↗
+828	Manufacturing / branded sales · hearing-aid zinc–air cells
+829	A secondary battery circulating electrolyte from tanks through a reaction unit. Charging deposits zinc and forms bromine; discharge reverses these reactions.
+833	An electrolyte containing zinc and bromine species circulates.
+834	Overall discharge: Zn + Br₂ → ZnBr₂
+835	Potential for long-duration storage and material diversification
+836	Bromine handling, corrosion, auxiliary equipment and yield management are necessary.
+837	Zinc and bromine
+838	Long-duration grid storage and microgrids
+839	Development / system supply · zinc–bromine flow batteries
+840	Consistent global 2025 GWh sales unverified
+841	ATL (TDK Group)
+842	Doosan Fuel Cell
+843	Enter a positive price and runtime, and a whole-number cell count.
+844	US Department of Energy · Batteries
+845	US Department of Energy · EV battery types
+846	US Department of Energy · Flow batteries
+847	US Department of Energy · Fuel-cell types
+848	US Department of Energy · Fuel-cell basics
+849	Secondary batteries
+850	Commercial
+851	Early commercial
+852	Development / early commercial
+853	Primary batteries
+854	Commercial / demonstration
+855	Fuel cells
+856	Commercial / expanding
+857	Specialized / demonstration
+858	Limited commercial
+859	Other / special technologies
+860	SM Bexel
+861	Vitzrocell
+862	iCellTech
+863	Sebang Battery
+864	Grinergy
+865	Hyundai HTWO
+866	MiCo Power
+867	Korea Fuel Cell
+868	All
+869	 technologies
+870	All 25 technologies currently listed are primary batteries, secondary batteries or fuel cells. Rechargeable flow batteries belong to secondary batteries.
+871	No results. Try another material or technology name.
+872	Fuel electrode
+873	Air electrode
+874	Charger
+875	Power output
+876	Generates while fuel and oxygen are supplied. It does not store electricity internally like a rechargeable battery.
+877	Discharge pathway for a single-use cell. Ordinary products must not be recharged.
+878	An external source drives electrons into the battery. Ion movement also reverses relative to discharge.
+879	Ions move through the electrolyte; electrons flow through the external circuit.
+880	Play animation
+881	An external source drives electrons into the cell while ions move in the reverse direction.
+882	Generates while fuel and air are supplied.
+883	Discharge pathway for a single-use cell.

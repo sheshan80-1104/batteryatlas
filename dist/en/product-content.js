@@ -1,0 +1,27 @@
+const PRODUCTS={
+ alkaline:['bexel-alkaline.png','SM Bexel · LR6 AA alkaline','Korean company product · manufacturing country unverified','Official product image','https://www.bexel.co.kr/en/html/product/battery.php','SM Bexel'],
+ carbon:['bexel-carbon.png','SM Bexel · R14 C zinc–carbon cell','Korean company product · manufacturing country unverified','Official product image','https://www.bexel.co.kr/en/html/product/battery_03.php','SM Bexel'],
+ limetal:['vitzrocell-SB-AA02.jpg','Vitzrocell · Tekcell SB-AA02','Korean company product · model-specific origin unverified','Lithium–thionyl chloride primary cell, one type of primary lithium battery.','https://www.vitzrocell.com/en/sub/sub02_01.php?cat_no=&idx=89&mode=view&offset=','Vitzrocell'],
+ zincair:['icell-slide.jpg','iCellTech · hearing-aid zinc–air batteries','Korean company product','Official photograph of size 10, 312, 13 and 675 product families','http://icelltech.com/home/zinc-air/','iCellTech'],
+ lead:['sebang-rocket-agm.png','Sebang Battery · ROCKET AGM 70','Made in Korea · marked on the product','Automotive AGM lead-acid battery','https://www.sebang-europe.com/products/automotive','Sebang Battery'],
+ nimh:['bexel-nimh.png','SM Bexel · HR6 AA Ni-MH 2000 mAh','Korean company product · manufacturing country unverified','Official product image · 1.2 V nickel-metal hydride secondary cell','https://www.bexel.co.kr/en/html/product/battery3.php','SM Bexel'],
+ lto:['lto-potere.jpg','Grinergy · POTERE S2','Korean company product','Battery using an LTO anode. LTO does not name a cathode chemistry.','https://www.grinergy.tech/product','Grinergy'],
+ lfp:['nca-sbb.jpg','Samsung SDI · SBB 2.0 (LFP)','Korean company product · exhibition photograph','RE+ 2025 exhibition photograph showing SBB 2.0 (LFP) and SBB 1.7 (NCA) together. Distinguish the two products.','https://www.samsungsdi.co.kr/sdi-now/sdi-news/4521.html','Samsung SDI'],
+ nca:['nca-sbb.jpg','Samsung SDI · SBB 1.7 (NCA)','Korean company product · exhibition photograph','RE+ 2025 exhibition photograph showing SBB 1.7 (NCA) and SBB 2.0 (LFP) together.','https://www.samsungsdi.co.kr/sdi-now/sdi-news/4521.html','Samsung SDI'],
+ lco:['lco-pouch.png','LG Energy Solution · small pouch cell range','Korean company product · product-family image','A product-family image from the official high-voltage LCO technology page. The models and cathode compositions of individual cells shown are not disclosed.','https://www.lgensol.com/kr/business/factor-pouch-small','LG Energy Solution'],
+ pemfc:['pemfc-htwo.png','Hyundai HTWO · hydrogen fuel-cell system','Korean company product · model-specific origin unverified','Official hydrogen fuel-cell system product image','https://www.htwo.hyundai.com/ko/technology/hydrogen-fuel-cell-system-product','Hyundai HTWO'],
+ sofc:['sofc-tucy.png','MiCo Power · TUCY-8K','Korean company product','8 kW-class solid oxide fuel-cell system','https://www.micopower.com/kr/sofc/tucy_intro.php','MiCo Power'],
+ pafc:['pafc-product.png','Doosan Fuel Cell · M400 Hydrogen','Korean company product','Official product image of a phosphoric-acid (PAFC) hydrogen fuel cell','https://www.doosanfuelcell.com/kr/prod/prod-0102/','Doosan Fuel Cell'],
+ mcfc:['mcfc-product.png','Korea Fuel Cell · 2.5 MW generation system','Previously supplied Korean company product','Official system configuration image. Current new sales/supply and the specific manufacturing scope require separate verification.','https://www.kfuelcell.com/theme/daontheme_business03/html/business/02.php','Korea Fuel Cell']
+};
+function productEscape(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function renderProduct(id,prefix=''){
+ const p=PRODUCTS[id];
+ const photo=p?`<figure class="product-figure"><img src="/assets/products/${p[0]}" alt="${productEscape(p[1])}" loading="lazy" decoding="async"><figcaption><strong>${productEscape(p[1])}</strong><span class="product-origin">${productEscape(p[2])}</span><p>${productEscape(p[3])}</p><a href="${p[4]}" target="_blank" rel="noopener">Image and product source: ${productEscape(p[5])} ↗</a></figcaption></figure>`:`<div class="product-unavailable"><b>Domestic product image not yet verified</b><p>We have not verified both a domestic manufacturer/seller and an official representative image for this chemistry. This does not mean domestic products do not exist. Images of other chemistries are not used as substitutes.</p></div>`;
+ return `<section class="product-section"><span class="eyebrow">Products from Korean companies</span><h3>Representative products and manufacturing origin</h3>${photo}<p class="maker-note">A Korean company's product is not necessarily manufactured in Korea. Actual photographs, official product images and exhibition photographs are identified separately. Checked: October 5, 2026.</p>${renderTopicLinks(id,prefix)}</section>`;
+}
+function renderTopicLinks(id,prefix=''){
+ if(id==='alkaline')return `<a class="topic-link" href="${prefix}guide/alkaline-value/"><b>Daiso vs Energizer: value comparison →</b><span>Korea Consumer Agency tests · price · runtime · calculator</span></a>`;
+ if(['lfp','nmc','nca','lead','sodium','nas','vrfb','znbr'].includes(id))return `<a class="topic-link" href="${prefix}guide/ess/"><b>ESS tenders and changing battery choices →</b><span>Why LFP is growing alongside NCM/NCA · Korea's 2026 tender</span></a>`;
+ return '';
+}

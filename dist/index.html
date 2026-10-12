@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#092736">
+<meta name="description" content="1차전지·2차전지·연료전지·기타 및 특수전지의 작동 원리, 이온과 전자 이동, 장단점, 원료와 2025년 공개 가격·시장 자료를 비교합니다.">
+<title>배터리 아틀라스 | 원리부터 시장 데이터까지</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="data.js" defer></script><script src="manufacturers.js" defer></script><script src="product-content.js" defer></script><script src="main.js" defer></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9806292747404740" crossorigin="anonymous"></script><link rel="alternate" hreflang="ko" href="https://batteryatlas.kr/"><link rel="alternate" hreflang="en" href="https://batteryatlas.kr/en/"><script src="/language-switch.js" defer></script></head>
+<body>
+<header class="site-head"><div class="brand"><span class="brand-mark">↯</span><span>배터리 아틀라스</span></div><nav class="head-links"><a href="#manufacturerRanking">제조사 순위</a><a href="#method">자료 기준</a></nav><nav class="language-switch" aria-label="Language"><a href="/" lang="ko" hreflang="ko" aria-current="page">한국어</a><a href="/en/" lang="en" hreflang="en">English</a></nav></header>
+<main>
+ <section class="intro">
+  <p class="eyebrow">BATTERY ATLAS · 2025 DATA EDITION</p>
+  <h1>전기는 어디서 오고,<br><em>무엇이 움직일까?</em></h1>
+  <p>1차전지부터 2차전지·연료전지까지 25가지 기술의 전자·이온 경로를 움직이는 그림으로 보고, 소재·가격·사용처를 함께 살펴보세요.</p>
+ </section>
+ <div class="learning-links"><a href="guide/ess/">ESS 입찰·배터리 변화 →</a><a href="guide/alkaline-value/">생활 건전지 가성비 →</a></div>
+ <nav class="overview-cards" aria-label="전지 분류 개요"><a href="overview/primary/"><b>1차전지 개요</b><span>종류·특징과 이름 읽는 법</span></a><a href="overview/secondary/"><b>2차전지 개요</b><span>양극재·음극재·전해질의 분류</span></a><a href="overview/fuel-cells/"><b>연료전지 개요</b><span>수소·청정수소와 HPS·CHPS</span></a></nav>
+ <p class="classification-guide">1차전지는 한 번 쓰는 전지, 2차전지는 충전해 다시 쓰는 전지, 연료전지는 연료를 공급해 발전하는 장치입니다. 흐름전지는 전해액을 탱크에 저장해 순환시키는 2차전지입니다.</p>
+ <section class="explorer" aria-label="배터리 종류 탐색">
+  <div class="catalog">
+   <div class="catalog-head"><label for="search">기술 찾기 <span id="count">25종</span></label><input id="search" type="search" placeholder="예: LFP, 수소, CATL" autocomplete="off"></div>
+   <div class="filters" id="filters" role="group" aria-label="분류 선택"></div>
+   <div class="items" id="items" role="listbox" aria-label="배터리 기술"></div>
+  </div>
+  <article class="detail" id="detail" aria-live="polite">
+   <div class="detail-top"><div><span class="eyebrow" id="category"></span><h2 id="name"></h2><p id="principle" class="lead"></p><a id="detailLink" class="detail-link" href="#">개별 설명 페이지 보기 ↗</a></div><span id="stage" class="stage"></span></div>
+   <div class="sim-wrap">
+    <div class="sim-head"><div><span class="eyebrow">움직이는 작동 원리</span><p id="simCaption"></p></div><div class="sim-controls"><button id="discharge" aria-pressed="true" type="button">방전·발전</button><button id="charge" aria-pressed="false" type="button">충전</button><button id="pause" aria-pressed="false" type="button" aria-label="애니메이션 일시정지">Ⅱ</button></div></div>
+    <svg id="diagram" viewBox="0 0 780 360" role="img" aria-label="왼쪽 전극과 오른쪽 전극 사이 이온 이동 및 외부 회로의 전자 이동"><defs><pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.4" fill="#87b3c0"/></pattern></defs>
+     <text x="390" y="27" class="svg-small" text-anchor="middle">전자 e⁻ · 외부 회로</text><path id="wire" d="M148 113 V57 H632 V113" class="wire"/>
+     <rect x="342" y="36" width="96" height="42" rx="10" class="load"/><text id="loadText" x="390" y="62" text-anchor="middle" class="svg-load">전기 사용</text>
+     <rect x="28" y="112" width="724" height="210" rx="24" class="case"/>
+     <rect x="52" y="136" width="195" height="153" rx="12" class="electrode"/>
+     <rect x="533" y="136" width="195" height="153" rx="12" class="electrode"/>
+     <rect x="365" y="137" width="50" height="150" rx="8" fill="url(#dots)" class="membrane"/>
+     <path id="ionPath" d="M259 214 H521" class="ionpath"/>
+     <text id="leftLabel" x="149" y="212" text-anchor="middle" class="svg-label"></text><text id="rightLabel" x="631" y="212" text-anchor="middle" class="svg-label"></text>
+     <text id="electrolyteLabel" x="390" y="313" text-anchor="middle" class="svg-small">전해질·막</text>
+     <g id="ions"></g><g id="electrons"></g>
+     <text id="leftFoot" x="149" y="347" text-anchor="middle" class="svg-foot">음극 · 방전 기준</text><text id="rightFoot" x="631" y="347" text-anchor="middle" class="svg-foot">양극 · 방전 기준</text>
+    </svg>
+    <div class="legend"><span><b class="swatch ion"></b><span id="ionLegend">이온</span> · 전해질/막</span><span><b class="swatch electron"></b>전자 e⁻ · 외부 회로</span></div>
+    <p class="diagram-note">방향과 입자 수를 단순화한 개념도입니다. 실제 전극 반응·전해질 흐름은 아래 설명을 함께 보세요.</p>
+   </div>
+   <div class="detail-grid">
+    <section class="block wide"><h3>전극·전해질에서 일어나는 일</h3><p id="electrolyte"></p><p id="reaction" class="reaction"></p></section>
+    <section class="block"><h3>장점</h3><p id="pros"></p></section><section class="block"><h3>한계</h3><p id="cons"></p></section>
+    <section class="block"><h3>원료와 공급</h3><p id="materials"></p></section><section class="block"><h3>주요 사용 분야</h3><p id="uses"></p></section>
+   </div>
+   <div id="productDetail"></div><div id="manufacturerDetail"></div>
+   <div class="market"><span class="eyebrow">2025 시장 자료</span><div class="market-grid"><div><small>판매량·순위</small><strong id="sales"></strong></div><div><small>가격</small><strong id="price"></strong><span id="priceNote"></span></div></div><div id="sources" class="sources"></div></div>
+  </article>
+ </section>
+ <section class="context" id="manufacturerRanking"><div id="evShareReference"></div></section>
+ <section class="context" id="method">
+  <div class="context-heading"><span class="eyebrow">읽는 법</span><h2>숫자보다 먼저<br>비교 기준을 확인하세요.</h2></div>
+  <div class="method-grid">
+   <div><span class="num">01</span><h3>판매량은 같은 시장끼리</h3><p>2025년 세계 전기차 탑재 배터리는 약 1.2 TWh, 그중 LFP가 55%를 넘습니다. 연료전지는 보통 설치 출력(MW), 건전지는 개수로 집계하므로 모든 기술을 한 표에 넣어 순위를 매기지 않았습니다. ‘판매량’과 ‘탑재량’도 다릅니다.</p><a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank" rel="noopener">IEA 원문 ↗</a></div>
+   <div><span class="num">02</span><h3>$/kWh는 무엇의 가격인가</h3><p>BloombergNEF의 2025년 평균 팩 가격은 리튬이온 전체 $108/kWh, LFP $81/kWh, NMC $128/kWh입니다. 셀·팩·설치 완료 시스템은 서로 다릅니다. 연료전지는 에너지를 저장하는 팩이 아니라 발전기여서 $/kW와 연료비를 함께 봅니다.</p><a href="https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/" target="_blank" rel="noopener">BNEF 원문 ↗</a></div>
+   <div><span class="num">03</span><h3>희토류와 핵심 광물은 다릅니다</h3><p>리튬·니켈·코발트와 백금은 희토류 원소가 아닙니다. NiMH 일부 수소저장합금에는 란타넘 같은 희토류가 사용됩니다. 2025년 리튬 채굴량은 미국을 제외하고 약 29만 톤이라는 USGS 추정이 있지만, 이것을 배터리 연간 ‘최대 생산량’으로 환산할 수는 없습니다. 정련 능력·재활용·용도별 배분·제품별 투입량이 달라집니다.</p><a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf" target="_blank" rel="noopener">USGS 원문 ↗</a></div>
+  </div>
+  <p class="method-foot">기술 종류는 대표적인 상용·초기 상용·실증 계열을 묶은 분류입니다. 리튬폴리머는 대개 별도 양극 화학계열이 아니라 셀 구조와 전해질 형태를 가리킵니다. 자료 기준일: 2026년 10월 5일. 가격은 달러 명목가격이며 환율·소매가·설치비를 반영하지 않습니다. 공개된 동등 기준 수치가 없으면 ‘미확인’으로 표시했습니다.</p>
+ </section>
+</main>
+<footer><div class="footer-brand"><div class="brand"><span class="brand-mark">↯</span><span>배터리 아틀라스</span></div><span class="site-credit">by Halmen 2026</span></div><p>전기화학을 이해하기 위한 교육용 자료. 실제 제품 선정에는 제조사 사양과 안전 기준을 확인하세요.</p></footer>
+<div class="privacy-link"><a href="/privacy/">개인정보·쿠키 안내</a></div></body></html>

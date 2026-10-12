@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#092736">
+<meta name="description" content="Compare primary batteries, secondary batteries, fuel cells and special technologies: principles, ion and electron movement, advantages, limitations, materials and public 2025 prices and market data.">
+<title>Battery Atlas | From Principles to Market Data</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+<script src="data.js" defer></script><script src="manufacturers.js" defer></script><script src="product-content.js" defer></script><script src="main.js" defer></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9806292747404740" crossorigin="anonymous"></script><link rel="alternate" hreflang="ko" href="https://batteryatlas.kr/"><link rel="alternate" hreflang="en" href="https://batteryatlas.kr/en/"><script src="/language-switch.js" defer></script></head>
+<body>
+<header class="site-head"><div class="brand"><span class="brand-mark">↯</span><span>Battery Atlas</span></div><nav class="head-links"><a href="#manufacturerRanking">Manufacturer rankings</a><a href="#method">Data & methodology</a></nav><nav class="language-switch" aria-label="Language"><a href="/" lang="ko" hreflang="ko">한국어</a><a href="/en/" lang="en" hreflang="en" aria-current="page">English</a></nav></header>
+<main>
+ <section class="intro">
+  <p class="eyebrow">BATTERY ATLAS · 2025 DATA EDITION</p>
+  <h1>Where does electricity come from,<br><em>and what moves?</em></h1>
+  <p>Explore electron and ion pathways in 25 primary, secondary and fuel-cell technologies through animation, alongside materials, prices and applications.</p>
+ </section>
+ <div class="learning-links"><a href="guide/ess/">ESS tenders & battery trends →</a><a href="guide/alkaline-value/">Everyday battery value →</a></div>
+ <nav class="overview-cards" aria-label="Battery category overviews"><a href="overview/primary/"><b>Primary batteries overview</b><span>Types, features and names</span></a><a href="overview/secondary/"><b>Secondary batteries overview</b><span>Cathode, anode and electrolyte classifications</span></a><a href="overview/fuel-cells/"><b>Fuel cells overview</b><span>Hydrogen, clean hydrogen & HPS/CHPS</span></a></nav>
+ <p class="classification-guide">Primary batteries are used once; secondary batteries are recharged; fuel cells generate electricity from a continuous fuel supply. Flow batteries are rechargeable secondary batteries that circulate electrolytes stored in tanks.</p>
+ <section class="explorer" aria-label="Explore battery technologies">
+  <div class="catalog">
+   <div class="catalog-head"><label for="search">Find a technology <span id="count">25 technologies</span></label><input id="search" type="search" placeholder="e.g. LFP, hydrogen, CATL" autocomplete="off"></div>
+   <div class="filters" id="filters" role="group" aria-label="Select category"></div>
+   <div class="items" id="items" role="listbox" aria-label="Battery technology"></div>
+  </div>
+  <article class="detail" id="detail" aria-live="polite">
+   <div class="detail-top"><div><span class="eyebrow" id="category"></span><h2 id="name"></h2><p id="principle" class="lead"></p><a id="detailLink" class="detail-link" href="#">Read the full technology page ↗</a></div><span id="stage" class="stage"></span></div>
+   <div class="sim-wrap">
+    <div class="sim-head"><div><span class="eyebrow">Animated operating principles</span><p id="simCaption"></p></div><div class="sim-controls"><button id="discharge" aria-pressed="true" type="button">Discharge / generate</button><button id="charge" aria-pressed="false" type="button">Charge</button><button id="pause" aria-pressed="false" type="button" aria-label="Pause animation">Ⅱ</button></div></div>
+    <svg id="diagram" viewBox="0 0 780 360" role="img" aria-label="Ion movement between the electrodes and electron movement through the external circuit"><defs><pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.4" fill="#87b3c0"/></pattern></defs>
+     <text x="390" y="27" class="svg-small" text-anchor="middle">Electrons e⁻ · external circuit</text><path id="wire" d="M148 113 V57 H632 V113" class="wire"/>
+     <rect x="342" y="36" width="96" height="42" rx="10" class="load"/><text id="loadText" x="390" y="62" text-anchor="middle" class="svg-load">Powering a load</text>
+     <rect x="28" y="112" width="724" height="210" rx="24" class="case"/>
+     <rect x="52" y="136" width="195" height="153" rx="12" class="electrode"/>
+     <rect x="533" y="136" width="195" height="153" rx="12" class="electrode"/>
+     <rect x="365" y="137" width="50" height="150" rx="8" fill="url(#dots)" class="membrane"/>
+     <path id="ionPath" d="M259 214 H521" class="ionpath"/>
+     <text id="leftLabel" x="149" y="212" text-anchor="middle" class="svg-label"></text><text id="rightLabel" x="631" y="212" text-anchor="middle" class="svg-label"></text>
+     <text id="electrolyteLabel" x="390" y="313" text-anchor="middle" class="svg-small">Electrolyte / membrane</text>
+     <g id="ions"></g><g id="electrons"></g>
+     <text id="leftFoot" x="149" y="347" text-anchor="middle" class="svg-foot">Anode · during discharge</text><text id="rightFoot" x="631" y="347" text-anchor="middle" class="svg-foot">Cathode · during discharge</text>
+    </svg>
+    <div class="legend"><span><b class="swatch ion"></b><span id="ionLegend">Ions</span> · electrolyte / membrane</span><span><b class="swatch electron"></b> Electrons e⁻ · external circuit</span></div>
+    <p class="diagram-note">Simplified directions and particle counts. Read the descriptions below for actual electrode reactions and electrolyte behavior.</p>
+   </div>
+   <div class="detail-grid">
+    <section class="block wide"><h3>What happens at the electrodes and electrolyte?</h3><p id="electrolyte"></p><p id="reaction" class="reaction"></p></section>
+    <section class="block"><h3>Advantages</h3><p id="pros"></p></section><section class="block"><h3>Limitations</h3><p id="cons"></p></section>
+    <section class="block"><h3>Materials & supply</h3><p id="materials"></p></section><section class="block"><h3>Main applications</h3><p id="uses"></p></section>
+   </div>
+   <div id="productDetail"></div><div id="manufacturerDetail"></div>
+   <div class="market"><span class="eyebrow">2025 market data</span><div class="market-grid"><div><small>Volume & ranking</small><strong id="sales"></strong></div><div><small>Price</small><strong id="price"></strong><span id="priceNote"></span></div></div><div id="sources" class="sources"></div></div>
+  </article>
+ </section>
+ <section class="context" id="manufacturerRanking"><div id="evShareReference"></div></section>
+ <section class="context" id="method">
+  <div class="context-heading"><span class="eyebrow">How to read the data</span><h2>Before comparing numbers,<br>check the measurement basis.</h2></div>
+  <div class="method-grid">
+   <div><span class="num">01</span><h3>Compare volumes within the same market</h3><p>About 1.2 TWh of batteries were installed in electric vehicles worldwide in 2025, with LFP exceeding 55%. Fuel cells are usually measured by installed power (MW), while disposable cells may be counted by units, so these technologies are not ranked in one combined table. Sales and installed battery capacity are also different measures.</p><a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank" rel="noopener">IEA source ↗</a></div>
+   <div><span class="num">02</span><h3>What does $/kWh price measure?</h3><p>BloombergNEF's 2025 average pack prices were $108/kWh for all lithium-ion batteries, $81/kWh for LFP and $128/kWh for NMC. Cells, packs and installed systems are different products. Fuel cells are generators rather than energy-storage packs, so compare $/kW alongside fuel costs.</p><a href="https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/" target="_blank" rel="noopener">BNEF source ↗</a></div>
+   <div><span class="num">03</span><h3>Rare earths and critical minerals are different</h3><p>Lithium, nickel, cobalt and platinum are not rare-earth elements. Some NiMH hydrogen-storage alloys contain rare earths such as lanthanum. USGS estimates 2025 lithium mine output at about 290,000 tonnes excluding the United States, but this cannot be converted directly into a maximum annual battery output. Refining, recycling, allocation between uses and material input per product all differ.</p><a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf" target="_blank" rel="noopener">USGS source ↗</a></div>
+  </div>
+  <p class="method-foot">The categories group representative commercial, early-commercial and demonstration technologies. Lithium-polymer usually refers to cell construction and electrolyte form rather than a separate cathode chemistry. Data date: October 5, 2026. Prices are nominal USD and exclude exchange rates, retail markups and installation costs. Where comparable public figures could not be verified, this is stated explicitly.</p>
+ </section>
+</main>
+<footer><div class="footer-brand"><div class="brand"><span class="brand-mark">↯</span><span>Battery Atlas</span></div><span class="site-credit">by Halmen 2026</span></div><p>Educational information about electrochemistry. For product selection, check manufacturer specifications and applicable safety standards.</p></footer>
+<div class="privacy-link"><a href="/en/privacy/">Privacy & cookies</a></div></body></html>
