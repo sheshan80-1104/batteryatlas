@@ -210,6 +210,7 @@
 209	. Systems that reform natural gas into hydrogen, or use carbon-containing fuels, can also emit CO₂.
 210	Names such as PEMFC and SOFC refer to the electrolyte
 211	Fuel cells are classified mainly by electrolyte type, which determines the mobile ion, operating temperature and fuel options. DMFC emphasizes the direct use of methanol, rather than a particular electrolyte class.
+212	Type · Electrolyte / ion · Features & typical applications
 213	Type
 214	Electrolyte / ion
 215	Features & typical applications
@@ -247,6 +248,7 @@
 247	These markets competitively purchase
 248	electricity
 249	produced from hydrogen or hydrogen compounds. They are distinct from hydrogen purchasing or fuel-cell equipment procurement. Korea Power Exchange operates the tenders, and generators submit prices and project plans for evaluation.
+250	Category · General hydrogen-generation tender market · Clean-hydrogen-generation tender market
 251	Category
 252	General hydrogen-generation tender market
 253	Clean-hydrogen-generation tender market
@@ -309,6 +311,7 @@
 310	Replace the cell when reactants are depleted
 311	The electrolyte carries ions; electrons flow through the external circuit connected to the device. Electrode–electrolyte combinations determine voltage, current capability, shelf life and cost.
 312	Representative types and features
+313	Type · Chemistry & features · Typical applications
 314	Chemistry & features
 315	Typical applications
 316	Zinc–carbon · Zn/C
@@ -354,6 +357,7 @@
 356	Are all secondary batteries named after the cathode?
 357	LFP, NMC (NCM), NCA, LCO and LMO name the cathode active material of lithium-ion batteries.
 358	This rule does not apply to every secondary battery. Cathode materials form the positive electrode, and these abbreviations specifically identify the active material participating in energy-storage reactions.
+359	Classification axis · Example names · What changes?
 360	Classification axis
 361	Example names
 362	What changes?
@@ -377,6 +381,7 @@
 380	Several names can apply simultaneously.
 381	For example, LFP cathode + graphite anode + liquid electrolyte + prismatic cell describes four different elements. Solid-state cells may use LFP or NMC cathodes. Flow batteries can be recharged and therefore belong to secondary batteries.
 382	Representative lithium-ion cathode families
+383	Family · Cathode active material · Key features & challenges
 384	Family
 385	Key features & challenges
 386	Lithium iron phosphate · LFP
@@ -396,6 +401,7 @@
 400	Power capability and manganese-based materials are strengths; life and high-temperature performance remain challenges.
 401	NMC and NCM name the same nickel–manganese–cobalt family. NMC811 indicates an 8:1:1 relative molar ratio of nickel, manganese and cobalt. Cathode names alone cannot determine life, cost or safety; assess the anode, electrolyte, design and use conditions as well.
 402	Secondary batteries beyond lithium-ion
+403	Family · Key features · Main applications
 404	Key features
 405	Competitive price and established recycling; heavy with low energy density
 406	Vehicle starting and backup power
@@ -441,12 +447,15 @@
 446	External links and changes
 447	When you open manufacturer or institutional links, their privacy policies apply. This notice and its effective date will be updated when advertising services or site functions change.
 448	Hydroxide ions move from the oxygen electrode to the hydrogen electrode.
+449	Alkaline fuel cell · AFC · 원리·장단점·2025 Price | Battery Atlas
 450	← Compare all technologies
 451	Read the fuel cells overview
+452	Fuel cells · Specialized / demonstration
 453	Ion and electron pathways
 454	Hydrogen H₂
 455	Oxygen O₂
 456	Electrolyte membrane
+457	OH⁻ · electrolyte / membrane
 458	Simplified reaction directions and pathways. Actual particle numbers and speeds differ.
 459	Electrode and electrolyte principles
 460	OH⁻ moves from the air electrode to the fuel electrode through the alkaline electrolyte.
@@ -478,7 +487,9 @@
 486	Related technologies
 487	Prices and volumes are listed only where public figures share comparable conditions. Fuel-cell costs are better assessed through equipment cost per unit power and fuel costs than storage cost per kWh. Data date: October 5, 2026.
 488	A disposable cell in which zinc is oxidized and manganese dioxide is reduced.
+489	Alkaline · Zn/MnO₂ · 원리·장단점·2025 Price | Battery Atlas
 490	Read the primary batteries overview
+491	Primary batteries · Commercial
 492	Electrolyte / separator
 493	OH⁻ in aqueous KOH participates in charge transport.
 494	Overall discharge: Zn + 2MnO₂ + H₂O → ZnO + 2MnOOH
@@ -498,6 +509,8 @@
 508	Pack cost per kWh is not an appropriate comparison
 509	US Department of Energy · Batteries ↗
 510	The zinc container is oxidized and manganese oxide is reduced.
+511	Zinc–carbon · Zn/C · 원리·장단점·2025 Price | Battery Atlas
+512	NH₄⁺ / Zn²⁺ · electrolyte / membrane
 513	Ammonium chloride / zinc chloride paste; reactions vary by product formulation
 514	Discharge: Zn → Zn²⁺ + 2e⁻ / MnO₂ is reduced (overall equation depends on electrolyte composition)
 515	Simple construction and low cost for low-drain uses.
@@ -508,7 +521,10 @@
 520	Manufacturing / sales · zinc–carbon cells
 521	Global 2025 chemistry-specific sales unverified
 522	Liquid methanol is oxidized directly at the electrode without separate reforming.
+523	Direct methanol fuel cell · DMFC · 원리·장단점·2025 Price | Battery Atlas
+524	Fuel cells · Limited commercial
 525	Methanol CH₃OH
+526	H⁺ · electrolyte / membrane
 527	H⁺ passes through a polymer membrane.
 528	Fuel electrode: CH₃OH + H₂O → CO₂ + 6H⁺ + 6e⁻ / Air electrode: 1½O₂ + 6H⁺ + 6e⁻ → 3H₂O
 529	Liquid fuel can be easier to replenish and store than hydrogen.
@@ -519,9 +535,13 @@
 534	Assess $/kW and fuel costs
 535	US Department of Energy · Fuel-cell basics ↗
 536	Lithium ions shuttle between graphite and cobalt oxide.
+537	Lithium cobalt oxide · LCO · 원리·장단점·2025 Price | Battery Atlas
 538	Read the secondary batteries overview
+539	Secondary batteries · Commercial
 540	Graphite
+541	Li⁺ · electrolyte / membrane
 542	Organic electrolyte with lithium salts
+543	Discharge: LiC₆ → C₆ + Li⁺ + e⁻ / CoO₂ + Li⁺ + e⁻ → LiCoO₂
 544	High volumetric energy density suits thin devices.
 545	High cobalt content and cost; limits in high-power and high-temperature use.
 546	Cobalt and lithium
@@ -548,6 +568,8 @@
 567	Rounding may prevent shares from summing to 100%. Rankings use installed capacity, so companies with the same rounded share, such as 3.7% or 2.4%, may have different ranks. This is not a retail revenue or all-battery sales ranking.
 568	SNE Research · Full-year 2025 data (February 4, 2026) ↗
 569	Both electrodes become lead sulfate during discharge, producing power. Charging restores the original materials.
+570	Lead-acid batteries · 원리·장단점·2025 Price | Battery Atlas
+571	H⁺ / SO₄²⁻ · electrolyte / membrane
 572	Aqueous sulfuric acid. Discharge consumes acid and forms water.
 573	Overall discharge: Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O
 574	Low initial cost, high short-term power and established recycling
@@ -566,7 +588,9 @@
 587	Comparable 2025 average pack price unverified
 588	US Department of Energy · EV battery types ↗
 589	During discharge, lithium ions leave graphite and enter the cathode's iron-phosphate structure, while electrons pass through the external circuit. Charging reverses both flows.
+590	Lithium iron phosphate · LFP · 원리·장단점·2025 Price | Battery Atlas
 591	Organic solvent with dissolved lithium salts. Li⁺ moves surrounded by solvent molecules and desolvates at electrode surfaces.
+592	Discharge: LiC₆ → C₆ + Li⁺ + e⁻ / FePO₄ + Li⁺ + e⁻ → LiFePO₄
 593	No nickel or cobalt, with generally good life and thermal stability.
 594	Less stored energy per unit mass or volume than high-nickel chemistries in many designs; low-temperature limitations.
 595	Lithium, iron phosphate and graphite. Calling this a rare-earth technology is inaccurate.
@@ -577,10 +601,12 @@
 600	Image and product source: Samsung SDI ↗
 601	Manufacturing / supply · Shenxing LFP
 602	Manufacturing / supply · Blade Battery LFP
+603	LG Energy Solution ↗
 604	Manufacturing / supply · LFP range
 605	Over 55% of global EV battery installations in 2025 · leading chemistry
 606	2025 global average pack price, all applications
 607	Lithium metal is oxidized during a single-use reaction. Distinguish this from rechargeable lithium-ion.
+608	Primary lithium batteries · 원리·장단점·2025 Price | Battery Atlas
 609	Lithium metal
 610	MnO₂ and other cathodes
 611	A non-aqueous electrolyte conducts Li⁺.
@@ -596,14 +622,17 @@
 621	Manufacturing / sales · CR primary lithium
 622	Manufacturing / sales · primary lithium cells
 623	Lithium ions move between spinel manganese oxide and graphite.
+624	Lithium manganese oxide · LMO · 원리·장단점·2025 Price | Battery Atlas
 625	Discharge: graphite releases Li / Mn₂O₄ + Li⁺ + e⁻ → LiMn₂O₄
 626	Relatively high power and possible cobalt-free cathode design.
 627	Limitations in high-temperature life and energy density.
 628	Manganese and lithium
 629	Power tools and blended vehicle cathodes
+630	Samsung SDI ↗
 631	Past LMO production verified; current supply of this chemistry unverified
 632	No public comparable 2025 standalone sales volume
 633	Uses an LTO anode instead of conventional graphite. Structural changes during cycling are small.
+634	Lithium titanate · LTO · 원리·장단점·2025 Price | Battery Atlas
 635	Lithium metal oxide
 636	Discharge: lithiated LTO → LTO + Li⁺ + e⁻ / cathode accepts Li⁺ and e⁻
 637	Strengths in fast charging, long life and low-temperature power.
@@ -616,7 +645,10 @@
 644	Image and product source: Grinergy ↗
 645	Manufacturing / sales · SCiB lithium-titanate anode
 646	Carbonate ions move to the fuel electrode as fuel's chemical energy becomes electricity.
+647	Molten carbonate fuel cell · MCFC · 원리·장단점·2025 Price | Battery Atlas
+648	Fuel cells · Commercial
 649	Fuel H₂ / gas
+650	CO₃²⁻ · electrolyte / membrane
 651	CO₃²⁻ moves from the air electrode to the fuel electrode in hot molten carbonate.
 652	Air electrode: ½O₂ + CO₂ + 2e⁻ → CO₃²⁻ / Fuel electrode: H₂ + CO₃²⁻ → H₂O + CO₂ + 2e⁻
 653	Large distributed generation and high-temperature waste-heat recovery
@@ -629,8 +661,10 @@
 660	Image and product source: Korea Fuel Cell ↗
 661	Manufacturing / system supply · molten carbonate fuel cells
 662	Sodium and sulfur react at high temperatures while sodium ions pass through a solid electrolyte.
+663	Sodium–sulfur · NaS · 원리·장단점·2025 Price | Battery Atlas
 664	Liquid Na
 665	Liquid S
+666	Na⁺ · electrolyte / membrane
 667	Na⁺ passes through a solid β-alumina electrolyte.
 668	Overall discharge: 2Na + xS → Na₂Sₓ
 669	Used for long-duration stationary storage with relatively abundant materials.
@@ -641,6 +675,7 @@
 674	No comparable 2025 sales volume on the same basis as other technologies
 675	No standard 2025 pack price
 676	Lithium ions move between a high-nickel cathode and graphite.
+677	Nickel cobalt aluminum · NCA · 원리·장단점·2025 Price | Battery Atlas
 678	Discharge: LiC₆ → C₆ + Li⁺ + e⁻ / metal oxide + Li⁺ + e⁻ → lithiated oxide
 679	High energy density supports long-range designs.
 680	Thermal management and nickel/cobalt supply-chain management are necessary.
@@ -652,6 +687,7 @@
 686	Manufacturing / supply · high-nickel NCA range
 687	Often grouped with NMC in high-nickel statistics; standalone 2025 rank unverified
 688	Cadmium and nickel redox reactions produce electric current.
+689	Nickel-cadmium · NiCd · 원리·장단점·2025 Price | Battery Atlas
 690	OH⁻ in aqueous KOH participates in the reaction.
 691	Overall discharge: Cd + 2NiOOH + 2H₂O → Cd(OH)₂ + 2Ni(OH)₂
 692	Good high-power performance and durability at extreme temperatures.
@@ -662,6 +698,7 @@
 697	Manufacturing / sales · industrial Ni-Cd
 698	Standalone global 2025 sales unverified
 699	Hydrogen in a metal hydride is oxidized while nickel oxide is reduced.
+700	Nickel-metal hydride · NiMH · 원리·장단점·2025 Price | Battery Atlas
 701	Hydrogen-storage alloy
 702	Aqueous KOH; OH⁻ mediates electrode reactions.
 703	Overall discharge: MH + NiOOH → M + Ni(OH)₂
@@ -674,7 +711,9 @@
 710	Manufacturing / sales · hybrid-vehicle NiMH
 711	Manufacturing / sales · nickel-metal hydride cells
 712	Lithium ions shuttle between graphite and layered metal oxide. Nickel, manganese and cobalt ratios affect performance and cost.
+713	Nickel manganese cobalt · NMC · 원리·장단점·2025 Price | Battery Atlas
 714	Organic solvent and lithium salts transport Li⁺.
+715	Discharge: LiC₆ → C₆ + Li⁺ + e⁻ / Li₁₋ₓMO₂ + xLi⁺ + xe⁻ → LiMO₂ (M=Ni,Mn,Co)
 716	High energy density makes longer vehicle range easier to achieve.
 717	Nickel/cobalt procurement and price volatility, plus high-temperature safety and life management.
 718	Nickel and cobalt are critical minerals, not rare earths. Geographical concentration of cobalt supply creates risk.
@@ -683,6 +722,7 @@
 721	Manufacturing / development · NCM range
 722	Second-largest EV battery chemistry in 2025 · comparable absolute GWh unverified
 723	Phosphoric acid provides an ion pathway; supplied fuel and air generate electricity.
+724	Phosphoric acid fuel cell · PAFC · 원리·장단점·2025 Price | Battery Atlas
 725	H⁺ passes through the phosphoric-acid electrolyte.
 726	Established experience in distributed generation and combined heat and power
 727	Catalyst cost, startup time and thermal management
@@ -691,8 +731,10 @@
 730	Doosan Fuel Cell · M400 Hydrogen
 731	Official product image of a phosphoric-acid (PAFC) hydrogen fuel cell
 732	Image and product source: Doosan Fuel Cell ↗
+733	Doosan Fuel Cell ↗
 734	Manufacturing / system supply · phosphoric acid fuel cells
 735	Generates while hydrogen and air are supplied; generation stops when fuel supply stops.
+736	Polymer electrolyte membrane fuel cell · PEMFC · 원리·장단점·2025 Price | Battery Atlas
 737	A polymer membrane passes H⁺ but blocks electrons.
 738	Hydrogen electrode: H₂ → 2H⁺ + 2e⁻ / Air electrode: ½O₂ + 2H⁺ + 2e⁻ → H₂O
 739	Low operating temperature, fast startup and water produced during operation
@@ -706,6 +748,7 @@
 747	No 2025 sales volume directly comparable to battery GWh
 748	Assess $/kW and hydrogen $/kg
 749	Zinc is oxidized while silver oxide is reduced to silver.
+750	Silver oxide · Ag₂O/Zn · 원리·장단점·2025 Price | Battery Atlas
 751	Alkaline electrolyte conducts OH⁻.
 752	Overall discharge: Zn + Ag₂O → ZnO + 2Ag
 753	Stable voltage in a compact cell
@@ -714,6 +757,8 @@
 756	Watches and small measurement / medical devices
 757	Manufacturing / sales · SR silver-oxide coin cells
 758	Sodium ions shuttle between electrodes instead of lithium. Cathode composition varies by product.
+759	Sodium-ion · Na-ion · 원리·장단점·2025 Price | Battery Atlas
+760	Secondary batteries · Early commercial
 761	Hard carbon
 762	Sodium-containing cathode
 763	Electrolyte containing sodium salts
@@ -725,8 +770,11 @@
 769	Development / commercialization · Naxtra sodium-ion
 770	Consistent global 2025 actual-sales data unverified
 771	Oxide ions formed at the air electrode move to the fuel electrode and react with fuel. Electrons flow through the external circuit.
+772	Solid oxide fuel cell · SOFC · 원리·장단점·2025 Price | Battery Atlas
+773	Fuel cells · Commercial / expanding
 774	Fuel H₂ / reformed gas
 775	Air O₂
+776	O²⁻ · electrolyte / membrane
 777	Oxide ions O²⁻ pass through a high-temperature ceramic electrolyte.
 778	Air electrode: ½O₂ + 2e⁻ → O²⁻ / Fuel electrode: H₂ + O²⁻ → H₂O + 2e⁻
 779	High electrical efficiency, combined heat and power, and fuel flexibility
@@ -739,6 +787,8 @@
 786	Manufacturing / system supply · SOFC Energy Server
 787	Not directly comparable with battery GWh in 2025
 788	Ions cross a solid electrolyte and electrons flow through the external circuit. The all-solid-state label does not by itself imply a lithium-metal anode.
+789	All-solid-state · solid electrolyte · 원리·장단점·2025 Price | Battery Atlas
+790	Secondary batteries · Development / early commercial
 791	Graphite or lithium metal
 792	Lithium cathode
 793	Solid electrolytes replace liquids to conduct Li⁺. Sulfide, oxide and polymer electrolytes are distinct technologies.
@@ -751,10 +801,12 @@
 800	General-purpose commercial sales and consistent 2025 rankings unverified
 801	No average mass-produced pack price
 802	Flow batteries are secondary batteries that store energy-bearing electrolytes in external tanks and circulate them with pumps. Vanadium electrolytes use different oxidation states. Stack size determines power; tank size and concentration determine stored energy.
+803	Vanadium flow battery · tank circulation · 원리·장단점·2025 Price | Battery Atlas
 804	V²⁺ / V³⁺ tank
 805	VO²⁺ / VO₂⁺ tank
 806	Electrolyte solution / separator
 807	Two solutions containing vanadium ions circulate via pumps. The H⁺ direction shown across the membrane is conceptual and depends on operating conditions and the reaction convention depicted.
+808	Discharge: V²⁺ → V³⁺ + e⁻ / VO₂⁺ + 2H⁺ + e⁻ → VO²⁺ + H₂O
 809	Suited to long operating durations, repeated cycling and tank expansion.
 810	Vanadium electrolyte, tank and pump costs; low energy density
 811	Vanadium supply, prices and electrolyte financing costs are important.
@@ -764,6 +816,7 @@
 815	Comparable 2025 system $/kWh unverified
 816	US Department of Energy · Flow batteries ↗
 817	Oxygen from outside air is the cathode reactant while zinc is oxidized.
+818	Zinc–air · Zn-air · 원리·장단점·2025 Price | Battery Atlas
 819	OH⁻ moves from the air electrode to the zinc electrode through an alkaline electrolyte.
 820	Overall discharge: 2Zn + O₂ → 2ZnO
 821	High energy density in small cells because oxygen is not stored internally.
@@ -775,6 +828,9 @@
 827	Image and product source: iCellTech ↗
 828	Manufacturing / branded sales · hearing-aid zinc–air cells
 829	A secondary battery circulating electrolyte from tanks through a reaction unit. Charging deposits zinc and forms bromine; discharge reverses these reactions.
+830	Zinc–bromine flow battery · tank circulation · 원리·장단점·2025 Price | Battery Atlas
+831	Secondary batteries · Commercial / demonstration
+832	Zn²⁺ · electrolyte / membrane
 833	An electrolyte containing zinc and bromine species circulates.
 834	Overall discharge: Zn + Br₂ → ZnBr₂
 835	Potential for long-duration storage and material diversification
@@ -826,3 +882,44 @@
 881	An external source drives electrons into the cell while ions move in the reverse direction.
 882	Generates while fuel and air are supplied.
 883	Discharge pathway for a single-use cell.
+884	About
+885	Contact
+886	Site information
+887	Learn about Battery Atlas, an educational resource for understanding and comparing battery technologies.
+888	Purpose
+889	Battery Atlas is an educational resource explaining how primary batteries, rechargeable batteries and fuel cells work. Concept diagrams showing ion and electron movement, comparisons of benefits and limitations, and market data help readers understand electrochemistry.
+890	Operator
+891	Operated by Halmen. Technical and market information is organized into readable comparisons, with sources and limitations explained.
+892	Source selection
+893	We use publicly available material from the International Energy Agency (IEA), BloombergNEF, the U.S. Geological Survey (USGS), public institutions and manufacturers. BloombergNEF references are limited to publicly released summaries and announcements. We distinguish the reporting year, units, scope and reference date. Where figures cannot be compared on equivalent terms or information is unverified, we state those limitations.
+894	How information is updated
+895	The operator reviews new public sources and reported errors and makes corrections as needed. Changes to figures are checked against the relevant period and source. A reference date indicates when the underlying material was checked; a site modification date does not mean every statistic is current. Korean and English pages are updated together from the same source material.
+896	Before using this information
+897	This site provides educational information and does not guarantee the performance or safety of individual products or business returns. Before selecting a product, check the manufacturer’s latest specifications, operating conditions, certifications and safety requirements.
+898	Email us to report errors, request corrections or discuss collaboration.
+899	Contact details
+900	Operator: Halmen
+901	Contact email:
+902	What you can contact us about
+903	Errors in technical explanations, figures, translations or links
+904	Requests to add or correct public information, with source references
+905	Educational use and collaboration inquiries
+906	How to report an issue
+907	Please include the page URL, the information that needs correcting and a verifiable original source link. Do not send unnecessary personal or sensitive information. We cannot guarantee that every request will be implemented or answered within a specific period.
+908	How inquiry information is used
+909	Information received by email is used to review and answer inquiries and assess corrections. See our Privacy & cookies notice for details about purposes and retention.
+910	Effective date: October 13, 2026
+911	How Battery Atlas handles personal information, retains inquiries, and manages advertising, cookies and consent.
+912	Privacy contact
+913	Privacy officer: Halmen
+914	Contact:
+915	Please email the address above with privacy inquiries or requests to access, correct or delete your information.
+916	Use and retention of email inquiries
+917	Email addresses, names (if provided), inquiry text and attachments are used to review and answer inquiries, verify errors, assess corrections and consider collaboration requests. They are not used for unrelated marketing.
+918	We delete inquiry information within one year after the inquiry is resolved. If you request deletion, we delete it after verification unless another retention obligation applies. Information subject to a legal retention obligation is retained for the required period. Unnecessary personal details about the reporter are not published when corrections are made.
+919	We use Gmail to receive and reply to email. The email service provider may process information under its own privacy policy.
+920	Advertising and cookie consent for European visitors
+921	When serving ads to visitors in the European Economic Area (EEA), the United Kingdom and Switzerland, we request the necessary consent for cookies and advertising-related personal data processing through a Google-certified consent management platform (CMP) and manage their choices. The consent message offers options to accept, reject and manage preferences.
+922	The site is currently under AdSense review. Publication of the CMP consent message and verification of its regional behavior are planned before ads are served. This notice alone does not activate a CMP.
+923	Google guidance on certified CMPs and European user consent
+924	Educational resources about battery and fuel cell technologies.

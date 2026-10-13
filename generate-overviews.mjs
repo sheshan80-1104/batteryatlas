@@ -1,3 +1,4 @@
+import { applyPageDefaults } from './page-common.mjs';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const DB=vm.runInNewContext(fs.readFileSync('dist/data.js','utf8')+'\nDB');
@@ -65,6 +66,6 @@ const nav=`<nav class="overview-nav" aria-label="개요 페이지">${pages.map(q
 const links=DB.filter(x=>x.group===p.group).map(x=>`<a href="../../technology/${x.id}/">${x.name}<span>원리·애니메이션·제조사</span></a>`).join('');
 p.body+=(p.slug==='primary'?section('value','생활 건전지 가격과 성능',`<a class="topic-link" href="../../guide/alkaline-value/">다이소·에너자이저·듀라셀·벡셀 비교 →</a>`):p.slug==='secondary'?section('ess','ESS 시장과 배터리 선택',`<a class="topic-link" href="../../guide/ess/">ESS 입찰제도와 LFP 비중이 높아진 이유 →</a>`):'');
 const html=`<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="${p.lead}"><meta name="theme-color" content="#092736"><title>${p.title} | 배터리 아틀라스</title><link rel="icon" href="../../favicon.svg"><link rel="stylesheet" href="../../style.css"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9806292747404740" crossorigin="anonymous"></script></head><body><header class="site-head"><a class="brand" href="../../"><span class="brand-mark">↯</span><span>배터리 아틀라스</span></a><a href="../../">전지별 탐색</a></header><main class="overview-page">${nav}<div class="overview-hero"><span class="eyebrow">분류부터 이해하는 전기화학</span><h1>${p.title}</h1><p>${p.lead}</p></div><nav class="overview-toc" aria-label="이 페이지 목차">${p.toc.map(([id,t])=>`<a href="#${id}">${t}</a>`).join('')}</nav><article>${p.body}</article><section class="overview-section"><h2>전지별 작동 원리 살펴보기</h2><div class="technology-links">${links}</div></section><p class="method-foot">자료 확인일: 2026년 10월 5일. 종류별 표는 대표적인 경향을 설명하며 실제 제품 사양과 다를 수 있습니다.</p></main><footer><div class="footer-brand"><div class="brand"><span class="brand-mark">↯</span><span>배터리 아틀라스</span></div><span class="site-credit">by Halmen 2026</span></div><p>전기화학을 이해하기 위한 교육용 자료</p></footer><div class="privacy-link"><a href="/privacy/">개인정보·쿠키 안내</a></div></body></html>`;
-fs.mkdirSync(`dist/overview/${p.slug}`,{recursive:true});fs.writeFileSync(`dist/overview/${p.slug}/index.html`,html);
+fs.mkdirSync(`dist/overview/${p.slug}`,{recursive:true});fs.writeFileSync(`dist/overview/${p.slug}/index.html`,applyPageDefaults(html, `/overview/${p.slug}/`));
 }
 console.log('Generated 3 overview pages');

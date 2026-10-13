@@ -1,6 +1,9 @@
+import { generateSupportPages } from './generate-support.mjs';
+import { applyPageDefaults } from './page-common.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+generateSupportPages();
 const root=path.resolve('dist'), data=fs.readFileSync(path.join(root,'data.js'),'utf8');
 const DB=vm.runInNewContext(data+'\nDB'),SOURCES=vm.runInNewContext(data+'\nSOURCES');
 const makerCode=fs.readFileSync(path.join(root,'manufacturers.js'),'utf8');
@@ -23,6 +26,6 @@ for(const x of DB){
 ${renderProduct(x.id)}
 ${renderMakers(x.id)}
 <div class="market"><span class="eyebrow">2025 시장 자료</span><div class="market-grid"><div><small>판매량·순위</small><strong>${esc(x.sales)}</strong></div><div><small>가격</small><strong>${esc(x.price)}</strong><span>${esc(x.priceNote||'')}</span></div></div><div class="sources">${refs}</div></div></article>${["lfp","nmc","nca","lco","lmo","lto","sodium","solid"].includes(x.id)?renderEVShare():""}<section class="related"><h2>같은 분류의 기술</h2>${similar.map(y=>'<a href="../'+esc(y.id)+'/">'+esc(y.name)+'</a>').join('')}</section><p class="method-foot">가격·판매량은 공표된 동일 조건 자료가 있는 경우만 기재합니다. 연료전지의 비용은 저장 용량당 가격보다 출력당 설비비와 연료비가 중요합니다. 자료 기준일: 2026년 10월 5일.</p></main><footer><div class="footer-brand"><div class="brand"><span class="brand-mark">↯</span><span>배터리 아틀라스</span></div><span class="site-credit">by Halmen 2026</span></div><p>전기화학을 이해하기 위한 교육용 자료. 실제 제품 선정에는 제조사 사양과 안전 기준을 확인하세요.</p></footer><div class="privacy-link"><a href="/privacy/">개인정보·쿠키 안내</a></div></body></html>`;
- const dir=path.join(root,'technology',x.id);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),page);
+ const dir=path.join(root,'technology',x.id);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),applyPageDefaults(page, '/technology/'+x.id+'/'));
 }
 console.log('Generated',DB.length,'technology pages');
