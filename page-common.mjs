@@ -19,7 +19,8 @@ export function applyPageDefaults(html, pathname) {
   html = html.replace(/<link\b[^>]*rel="canonical"[^>]*>/gi, '')
     .replace(/<link\b[^>]*rel="alternate"[^>]*hreflang="[^"]*"[^>]*>/gi, '')
     .replace(/<meta\b[^>]*property="og:[^"]*"[^>]*>/gi, '');
-  const meta = `<link rel="canonical" href="${canonical}">`
+  const naverVerification = pathname === '/' ? '<meta name="naver-site-verification" content="35f749ac99e7087d35a71cc44644b59955b9724d">' : '';
+  const meta = naverVerification + `<link rel="canonical" href="${canonical}">`
     + `<link rel="alternate" hreflang="ko" href="${config.origin}${koPath}">`
     + `<link rel="alternate" hreflang="en" href="${config.origin}${enPath}">`
     + `<link rel="alternate" hreflang="x-default" href="${config.origin}${koPath}">`
