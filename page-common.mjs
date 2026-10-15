@@ -28,7 +28,12 @@ export function applyPageDefaults(html, pathname) {
     + `<meta property="og:url" content="${canonical}">`
     + `<meta property="og:type" content="website">`
     + `<meta property="og:locale" content="${english ? 'en_US' : 'ko_KR'}">`;
-  html = html.replace('</head>', meta + '</head>');
+  const brand = english ? 'Battery Atlas' : '배터리 아틀라스 (BatteryAtlas)';
+  const schema = pathname === '/' || pathname === '/en/'
+    ? { '@context': 'https://schema.org', '@type': 'WebSite', name: brand, alternateName: english ? ['BatteryAtlas', '배터리 아틀라스', '배터리아틀라스'] : ['배터리아틀라스', 'BatteryAtlas', 'Battery Atlas'], url: config.origin + pathname, inLanguage: english ? 'en' : 'ko', description: decode(description) }
+    : { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: canonical, inLanguage: english ? 'en' : 'ko', description: decode(description), isPartOf: { '@type': 'WebSite', name: brand, url: config.origin + (english ? '/en/' : '/') } };
+  html = html.replace(/<script\\b[^>]*type="application\\/ld\\+json"[^>]*data-batteryatlas-seo[^>]*>[\\s\\S]*?<\\/script>/gi, '');
+  html = html.replace('</head>', meta + '<script type="application/ld+json" data-batteryatlas-seo>' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script></head>');
   html = html.replace(/<div class="privacy-link">[\s\S]*?<\/div>/g, '')
     .replace(/<nav class="footer-nav"[\s\S]*?<\/nav>/g, '');
   const prefix = english ? '/en' : '';
