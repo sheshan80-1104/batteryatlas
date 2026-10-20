@@ -3,6 +3,7 @@ import json,re,subprocess,os
 from html import escape
 from urllib.parse import urlsplit
 root=Path('dist')
+faq=json.loads(Path('technology-faq.json').read_text())
 ko=json.loads(Path('translations-ko.json').read_text())
 en={int(l.split('\t',1)[0]):l.split('\t',1)[1] for l in Path('translations-en.tsv').read_text().splitlines() if l}
 if set(en) != set(range(len(ko))):
@@ -31,7 +32,15 @@ for p in pages:
  source=re.sub(r'<script src="/language-switch.js" defer></script>','',source)
  tail=str(rel.parent).replace('\\','/');tail='' if tail=='.' else tail+'/'
  alt=f'<link rel="alternate" hreflang="ko" href="https://batteryatlas.kr/{tail}"><link rel="alternate" hreflang="en" href="https://batteryatlas.kr/en/{tail}">'
- english=translate(source).replace('lang="ko"','lang="en"')
+ faq_id=rel.parent.name if rel.parent.parent.name=='technology' else None
+ faq_entry=faq.get(faq_id) if faq_id else None
+ if faq_entry:
+  source_for_translation=source.replace(faq_entry['ko'],'BATTERYATLASFAQPLACEHOLDER')
+ else:
+  source_for_translation=source
+ english=translate(source_for_translation).replace('lang="ko"','lang="en"')
+ if faq_entry:
+  english=english.replace('BATTERYATLASFAQPLACEHOLDER',faq_entry['en'])
  english=re.sub(r'href="(/[^"]*)"',english_href,english)
  english=english.replace('</header>',switch(rel,True)+'</header>',1)
  english=english.replace('</head>',alt+'<script src="/language-switch.js" defer></script></head>')
