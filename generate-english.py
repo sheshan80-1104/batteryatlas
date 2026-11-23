@@ -10,7 +10,7 @@ if set(en) != set(range(len(ko))):
  raise ValueError('Each Korean translation entry requires an English entry')
 m={ko[i]:v for i,v in en.items()}
 m['이미지·제품 정보 출처:']='Image and product source:'
-m['원리·장단점·2025 가격']='Principles, Pros & Cons, 2025 Prices'
+m['원리·장단점·2025 가격']='Principles, Pros &amp; Cons and 2025 Prices'
 pattern=re.compile('|'.join(re.escape(k) for k in sorted(m,key=len,reverse=True)))
 def translate(s):return pattern.sub(lambda x:m[x[0]],s)
 def switch(path,is_en):
@@ -50,8 +50,9 @@ for p in pages:
  dest=root/'en'/rel;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(english)
  source=source.replace('</header>',switch(rel,False)+'</header>',1).replace('</head>',alt+'<script src="/language-switch.js" defer></script></head>')
  p.write_text(source)
+shared_scripts={'language-switch.js', 'ess-duration.js'}
 for p in root.glob('*.js'):
- if p.name=='language-switch.js':continue
+ if p.name in shared_scripts:continue
  s=translate(p.read_text())
  if p.name=='product-content.js':s=s.replace('${prefix}assets/products/','/assets/products/')
  if p.name=='main.js':s=s.replace('results.length+" technologies"','results.length+" technologies"')

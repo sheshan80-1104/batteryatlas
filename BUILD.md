@@ -14,7 +14,7 @@ python validate-site.py
 
 English strings are maintained in `translations-ko.json` and `translations-en.tsv`, with matching numeric indices. `generate-english.py` translates the Korean pages, preserves the language switch links, routes internal page links to `/en/`, and runs `generate-seo.mjs` for both languages. That final pass generates `robots.txt` and a sitemap with self-referencing canonical URLs, reciprocal language alternatives and Korean x-default URLs.
 
-The modification date for sitemap entries is maintained in `site-config.json`. Update it when publishing substantive page changes; do not treat it as the reference year of statistics. The privacy notice's effective date is maintained in its source template.
+For substantive page changes, update the Korean route's entry in `pageModifiedDates` in `site-config.json`. The sitemap applies that date to both languages. The privacy notice's effective date is maintained in its source template.
 
 Do not alter the existing AdSense script (`ca-pub-9806292747404740`) or `dist/ads.txt`. The validator checks their presence and the original ads.txt checksum. The privacy and support pages also include the original ad script.
 

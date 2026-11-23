@@ -1,22 +1,33 @@
 import { generateSupportPages } from './generate-support.mjs';
-import { applyPageDefaults } from './page-common.mjs';
+import { applyPageDefaults, escapeHtml } from './page-common.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
-generateSupportPages();
 const FAQ=JSON.parse(fs.readFileSync('technology-faq.json','utf8'));
 const root=path.resolve('dist'), data=fs.readFileSync(path.join(root,'data.js'),'utf8');
 const DB=vm.runInNewContext(data+'\nDB'),SOURCES=vm.runInNewContext(data+'\nSOURCES');
+const overviewSlugs = {'1차전지': 'primary', '2차전지': 'secondary', '연료전지': 'fuel-cells'};
+const homepage = fs.readFileSync('templates/index.html', 'utf8');
+const directoryGroups = Object.keys(overviewSlugs).map(group => {
+  const links = DB.filter(technology => technology.group === group).map(({id, name}) =>
+    `<li><a href="technology/${escapeHtml(id)}/">${escapeHtml(name)}</a></li>`);
+  return `<section><h3>${group}</h3><ul>${links.join('')}</ul></section>`;
+});
+fs.writeFileSync(path.join(root, 'index.html'), applyPageDefaults(
+  homepage.replace('<!-- technology-directory-groups -->', directoryGroups.join('\n')),
+  '/'
+));
+generateSupportPages();
 const makerCode=fs.readFileSync(path.join(root,'manufacturers.js'),'utf8');
 const makerContext=vm.createContext({});vm.runInContext(makerCode,makerContext);
 const renderMakers=id=>vm.runInContext('renderMakers('+JSON.stringify(id)+')',makerContext);
 const renderEVShare=()=>vm.runInContext('renderEVShare()',makerContext);
 const productContext=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(root,'product-content.js'),'utf8'),productContext);
 const renderProduct=id=>vm.runInContext('renderProduct('+JSON.stringify(id)+',"../../")',productContext);
-const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),diagram=html.match(/<svg id="diagram"[\s\S]*?<\/svg>/)[0];
+const diagram=homepage.match(/<svg id="diagram"[\s\S]*?<\/svg>/)[0];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 for(const x of DB){
- const overviewSlug={'1차전지':'primary','2차전지':'secondary','연료전지':'fuel-cells'}[x.group];
+ const overviewSlug=overviewSlugs[x.group];
  const similar=DB.filter(y=>y.group===x.group&&y.id!==x.id).slice(0,4);
  const refs=x.sources.map(k=>'<a href="'+esc(SOURCES[k].url)+'" target="_blank" rel="noopener">'+esc(SOURCES[k].name)+' ↗</a>').join('');
  let svg=diagram.replace('<text id="leftLabel" x="149" y="212" text-anchor="middle" class="svg-label"></text>',`<text id="leftLabel" x="149" y="212" text-anchor="middle" class="svg-label">${esc(x.left)}</text>`).replace('<text id="rightLabel" x="631" y="212" text-anchor="middle" class="svg-label"></text>',`<text id="rightLabel" x="631" y="212" text-anchor="middle" class="svg-label">${esc(x.right)}</text>`);

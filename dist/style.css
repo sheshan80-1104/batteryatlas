@@ -18,3 +18,39 @@
 
 /* Common site information links in every language and page. */
 footer{flex-wrap:wrap}.footer-nav{display:flex;flex-wrap:wrap;align-items:center;gap:10px;width:100%;padding-top:18px;border-top:1px solid #547579;font-size:.86rem}.footer-nav a{color:#d1e4df;text-underline-offset:4px}.support-page{max-width:1050px}.support-page li{line-height:1.8}.support-page a[href^="mailto:"]{overflow-wrap:anywhere}
+
+.technology-directory {
+  padding: 32px clamp(18px, 4vw, 58px);
+  background: #edf4f0;
+  scroll-margin-top: 20px;
+}
+.technology-directory h2 { margin: 0 0 20px; }
+.technology-directory-grid,
+.ess-duration-results {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+}
+.technology-directory-grid section,
+.ess-duration-results div {
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #cbded7;
+  border-radius: 12px;
+}
+.technology-directory-grid h3 { margin: 0 0 6px; }
+.technology-directory-grid ul { margin: 0; padding: 0; list-style: none; }
+.technology-directory-grid a {
+  display: block;
+  padding: 5px 0;
+  color: #156068;
+  line-height: 1.55;
+}
+.ess-duration-results { margin: 18px 0; }
+.ess-duration-results div { background: #eaf6f1; }
+.ess-duration-results dd {
+  margin: 6px 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}

@@ -16,7 +16,8 @@ const urls = paths.map(p => {
   const ko = p.startsWith('/en/') ? p.slice(3) : p;
   const en = '/en' + ko;
   if (!pathSet.has(ko) || !pathSet.has(en)) throw new Error('Missing bilingual pair: ' + p);
-  return `  <url><loc>${escapeHtml(config.origin + p)}</loc><lastmod>${config.modifiedDate}</lastmod>`
+  const modifiedDate = config.pageModifiedDates?.[ko] ?? config.modifiedDate;
+  return `  <url><loc>${escapeHtml(config.origin + p)}</loc><lastmod>${modifiedDate}</lastmod>`
     + `<xhtml:link rel="alternate" hreflang="ko" href="${config.origin}${ko}"/>`
     + `<xhtml:link rel="alternate" hreflang="en" href="${config.origin}${en}"/>`
     + `<xhtml:link rel="alternate" hreflang="x-default" href="${config.origin}${ko}"/></url>`;

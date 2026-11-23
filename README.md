@@ -29,4 +29,4 @@ Restore it to a separate folder:
 git clone history/battery-atlas.bundle battery-atlas-original
 ```
 
-This repository stores a source snapshot and original history backup. Production hosting and domain settings remain managed by ChatGPT Sites; GitHub pushes do not automatically deploy the website.
+Cloudflare Workers Builds deploys `dist/` from the `main` branch to https://batteryatlas.kr.

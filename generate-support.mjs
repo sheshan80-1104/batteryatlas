@@ -12,7 +12,6 @@ const supportPage = (slug, title, description, body) => {
 };
 
 export function generateSupportPages() {
-  fs.writeFileSync('dist/index.html', applyPageDefaults(fs.readFileSync('templates/index.html', 'utf8'), '/'));
   fs.mkdirSync('dist/privacy', {recursive:true});
   fs.writeFileSync('dist/privacy/index.html', applyPageDefaults(fs.readFileSync('templates/privacy.html', 'utf8'), '/privacy/'));
   supportPage('about', '소개', '전지 기술을 쉽게 이해하고 비교하기 위한 배터리 아틀라스를 소개합니다.',
